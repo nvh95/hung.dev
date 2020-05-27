@@ -24,6 +24,14 @@ const Menu = ({ menu }: Props) => (
           </Link>
         </li>
       ))}
+      <a
+        href="https://huwng.wordpress.com/"
+        className={styles['menu__list-item-link']}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Wordpress Blog
+      </a>
     </ul>
   </nav>
 );

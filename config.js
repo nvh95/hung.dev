@@ -12,7 +12,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blogs',
       path: '/'
     },
     {
@@ -27,12 +27,12 @@ module.exports = {
   author: {
     name: 'Hung.Dev',
     photo: '/photo.jpg',
-    bio: 'Software Engineer. Triathlete',
+    bio: 'Software Engineer. Amateur Triathlete',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
+      facebook: 'nvh95',
+      telegram: '',
+      twitter: 'hung_dev',
       github: 'nvh95',
       rss: '',
       vkontakte: '',
