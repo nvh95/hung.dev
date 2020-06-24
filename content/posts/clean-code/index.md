@@ -8,7 +8,7 @@ category: "Clean Code"
 tags:
   - "clean-code"
 description: "Một việc một engineer làm trong một ngày thì hai engineer sẽ làm trong hai ngày"
-socialImage: "./images/wtf.png"
+socialImage: "/media/wtf.png"
 ---
 
 *Bài viết sử dụng tư tưởng của Uncle Bob trong [chuỗi video](https://www.oreilly.com/library/view/clean-code/9780134661742) về Clean Code*
