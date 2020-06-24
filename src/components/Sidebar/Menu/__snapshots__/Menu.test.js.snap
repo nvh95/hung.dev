@@ -27,6 +27,14 @@ exports[`Menu renders correctly 1`] = `
         Item 1
       </a>
     </li>
+    <a
+      className="menu__list-item-link"
+      href="https://huwng.wordpress.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Wordpress Blog
+    </a>
   </ul>
 </nav>
 `;
