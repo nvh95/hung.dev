@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
+  "name": "hung-dev",
   "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
   "main": "n/a",
   "scripts": {
@@ -16,8 +16,8 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/nvh95/hung.dev",
+  "author": "Hung Viet Nguyen <nguyenviethunghl00@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -41,12 +41,14 @@
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.6.5",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.20.12",
     "gatsby-link": "^2.3.2",
     "gatsby-plugin-catch-links": "^2.2.1",
     "gatsby-plugin-feed": "^2.4.1",
     "gatsby-plugin-flow": "^1.2.1",
     "gatsby-plugin-google-gtag": "^2.0.0",
+    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-netlify": "^2.2.1",
     "gatsby-plugin-netlify-cms": "^4.2.2",
@@ -79,7 +81,8 @@
     "react": "^16.13.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",

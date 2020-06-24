@@ -3,6 +3,10 @@
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
+require('dotenv').config({
+  path: '.env',
+});
+
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
@@ -204,5 +208,11 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: process.env.MAILCHIMP_ENDPOINT,
+      },
+    },
   ]
 };

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styles from './Menu.module.scss';
+import Mailchimp from '../Mailchimp';
 
 type Props = {
   menu: {
@@ -32,6 +33,7 @@ const Menu = ({ menu }: Props) => (
       >
         Wordpress Blog
       </a>
+      <Mailchimp />
     </ul>
   </nav>
 );
