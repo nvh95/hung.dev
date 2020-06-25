@@ -6,7 +6,7 @@ module.exports = {
   title: 'Blog by Hung Viet Nguyen',
   subtitle: 'Hung Viet Nguyen',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'hung-dev',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-116900824-2',
   useKatex: false,
