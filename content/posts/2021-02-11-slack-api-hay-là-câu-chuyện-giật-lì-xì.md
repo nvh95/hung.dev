@@ -29,7 +29,7 @@ Nói sơ qua về cách làm: (1) mình sẽ sử dụng một con Slack Bot, sa
 
 #### Tạo slack bot
 
-Rất đơn giản, bạn chỉ cần truy cập vào <https://api.slack.com/apps/new> để tạo một con bot (App) mới, điền thông tin về App name và Workspace mà bạn muốn tích hợp nó vào
+Rất đơn giản, bạn chỉ cần truy cập vào <https://api.slack.com/apps/new> để tạo một con bot (App) mới, điền thông tin về **App name** và **Workspace** mà bạn muốn tích hợp nó vào
 
 ![New Slack App](/media/screenshot-2021-02-12-at-02.16.15.png "New Slack App")
 
@@ -51,7 +51,7 @@ Tada. Vậy là bạn đã cấp quyền xong cho con bot. Bây giờ hãy insta
 
 \- **channel**: channel mà bạn muốn gửi tin nhắn. Có thể là một kênh bất kỳ hoặc Direct Message. Bạn lấy giá trị của channel bằng cách chuột phải vào cuộc hội thoại và chọn Copy Link, phần giá trị sau cùng sẽ là giá trị bạn cần truyền vào. Ví dụ `C1234567890`
 
-\- **as_user**: set là true, nếu bạn muốn con bot gửi tin nhắn on your behalf
+\- **as_user**: set là true, nếu bạn muốn con bot gửi tin nhắn dưới danh tính của mình
 
 \- **text**: nội dung bạn muốn nhắn
 
