@@ -17,7 +17,7 @@
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
   "repository": "https://github.com/nvh95/hung.dev",
-  "author": "Hung Viet Nguyen <nguyenviethunghl00@gmail.com>",
+  "author": "Hung Viet Nguyen <viet@hung.dev>",
   "license": "MIT",
   "keywords": [
     "gatsby",
