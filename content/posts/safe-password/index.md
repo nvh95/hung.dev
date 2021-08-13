@@ -39,7 +39,7 @@ Lời khuyên đưa ra đó là bạn cần có một mật khẩu phức tạp,
 
 ![Strong Password](./images/strong-password.png)
 
-Một điểm cần lưu ý thêm đó là việc an toàn sẽ có cái giá của nó, nó không miễn phí. Ví dụ như cái cửa ra vào. Nếu muốn tiện lợi thì có thể không cần khóa, chỉ khép cửa vào thôi, rất tiện. Nhưng trộm có thể vào nhà bạn và khiêng hết đồ đạc đi. Ngược lại, nếu bạn muốn an toàn, bạn phải khóa trong, khóa ngoài, khóa trên, khóa dưới, khóa thêm cả vân tay. Như thế sẽ khiến trộm khó có thể vào nhà bạn được nhưng bạn lại đánh mất đi một chút tiện lợi.
+Một điểm cần lưu ý thêm đó là việc **an toàn sẽ có cái giá của nó, nó không miễn phí**. Ví dụ như cái cửa ra vào. Nếu muốn tiện lợi thì có thể không cần khóa, chỉ khép cửa vào thôi, rất tiện. Nhưng trộm có thể vào nhà bạn và khiêng hết đồ đạc đi. Ngược lại, nếu bạn muốn an toàn, bạn phải khóa trong, khóa ngoài, khóa trên, khóa dưới, khóa thêm cả vân tay. Như thế sẽ khiến trộm khó có thể vào nhà bạn được nhưng bạn lại đánh mất đi một chút tiện lợi.
 
 ![many locks](./images/many-lock.jpg)
 
