@@ -15,7 +15,7 @@ socialImage: "/media/safe_password.jpg"
 
 Đôi khi bạn lại thấy một dòng trạng thái "Bạn A bạn mình bị mất nick facebook, xin mọi người đừng chuyển tiền nếu nhận được tin nhắn", hay nhận được lời than thở "Mình mới bị mất nick instagram", hay một fanpage/ group bị bay màu do admin bị hack nick. Đó đều là những vụ tấn công, và phần nhiều trong số đó là các vụ tấn công liên quan đến việc mật khẩu bị đánh cắp. Trong bài viết này mình xin chia sẻ về tầm quan trọng của việc có mật khẩu an toàn và cách để chúng ta bảo vệ bản thân bằng cách cài đặt mật khẩu an toàn.
 
-***Bài viết này lấy cảm hứng từ buổi livestream [Hỏi đáp về sử dụng internet an toàn](https://vnhacker.blogspot.com/2020/07/reminder-ve-buoi-hoi-ap-su-dung.html). Mình rất khuyến khích các bạn dành thời gian xem livestream này (đã được ghi lại trên [youtube]()), thực sự rất hay và cung cấp rất nhiều thông tin chuyên sâu và bổ ích.***
+***Bài viết này lấy cảm hứng từ buổi livestream [Hỏi đáp về sử dụng internet an toàn](https://vnhacker.blogspot.com/2020/07/reminder-ve-buoi-hoi-ap-su-dung.html). Mình rất khuyến khích các bạn dành thời gian xem livestream này (đã được ghi lại trên [youtube](https://www.youtube.com/watch?v=UGuKG4rMs8U)), thực sự rất hay và cung cấp rất nhiều thông tin chuyên sâu và bổ ích.***
 
 Chúng ta hãy cùng nghe câu chuyện của anh K nhé.  
 
