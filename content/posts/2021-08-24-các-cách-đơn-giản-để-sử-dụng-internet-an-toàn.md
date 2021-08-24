@@ -36,7 +36,7 @@ Mình đã viết một bài viết chi tiết về vấn đề này ở [đây]
 
 \- Các mật khẩu sẽ rất mạnh. Ví dụ: `yL^t7GsM3&ESwwxt4baW`
 
-\- Phòng chống Phishing (link đến Phishing) 
+\- Tự động điền mật khẩu vào các trang web, phòng chống Phishing (link đến Phishing) 
 
 ![Bitwarden](https://bitwarden.com/images/products/products-hero.png)
 
@@ -46,8 +46,32 @@ Mình đã viết một bài viết chi tiết về vấn đề này ở [đây]
 
 \- Không bao giờ submit các form trên các trang web không có hình chiếc khoá, đặc biệt là các thông tin cá nhân và mật khẩu. Khi truy cập các trang web không có hình chiếc khoá, toàn bộ thông tin bạn gửi đi sẽ không được mã hoá và ai cũng có thể đọc được. Ngoài ra, bạn có thể đang là nạn nhân của các cuộc tấn công Man in the Middle như ssltrip...
 
-![Một trang web có hình \"chiếc khoá\", được mã hoá đầu cuối, sử dụng HTTPS](/media/screenshot-2021-08-25-at-00.48.15.png "Một trang web có hình \\"chiếc khoá\\", được mã hoá đầu cuối, sử dụng HTTPS")
+![Một trang web có hình \"chiếc khoá\", được mã hoá đầu cuối, sử dụng HTTPS](/media/screenshot-2021-08-25-at-00.48.15.png "Một trang web có hình \\\"chiếc khoá\\\", được mã hoá đầu cuối, sử dụng HTTPS")
 
 ![](/media/screenshot-2021-08-25-at-00.48.50.png "Không bao giờ gửi thông tin cá nhân lên các trang web không có hình chiếc khoá.")
 
-Lưu ý: Điều này không đồng nghĩa với việc các trang web có hình chiếc khoá thì sẽ an toàn để gửi thông tin đi. Ý số 4 chỉ muốn nói đến việc nếu
+Lưu ý: Điều này không đồng nghĩa với việc các trang web có hình chiếc khoá thì sẽ luôn an toàn để gửi thông tin đi.
+
+\### 5. Nhận biết các trang web phishing và không nhập mật khẩu vào các trang web đó
+
+Đây là hình thức lừa đảo phổ biến bậc nhất và rất khó với những người không chuyên về công nghệ để có thể phân biệt được. Trước tiên phishing là gì? Hiểu nôm na, phishing attack là hình thức tấn công dụ người dùng vào một trang web của kẻ tấn công và dụ người dùng nhập password vào. Các trang web phishing có thể thiết kế trông y hệt một trang web mà bạn vẫn hay vào như facebook, gmail, icloud,..., hay núp bóng các hình thức như để có thể bình chọn, hay nhận thưởng, bạn phải kết nối tài khoản facebook, google... Một khi bạn thực hiện các thao tác trên, tài khoản của bạn sẽ bị mất, mặc cho mật khẩu của bạn có phức tạp như thế nào.
+
+Hãy cùng điểm qua một vài hình thức phishing nhé
+
+\- Giao diên y hệt trang gốc
+
+![](/media/facebookloginphishing.png)
+
+\*Url không phải là facebook.com mà là facebook-support.something.xyz - là một trang phishing\*
+
+\- Nhận thưởng, bình chọn,...: Khi nhận được email hay tin nhắn nhờ bình chọn hay nhận một phần thưởng nào đó, sau đó bạn phải nhập mật khẩu vào
+
+![](/media/phishing-email-scam.jpeg)
+
+\- Subdomain đánh lừa người dùng
+
+\- Trang web nằm trong trang web
+
+
+
+Một tin vui đó là nếu bạn sử dụng các phần mềm quản lý mật khẩu, nó sẽ giúp bạn tránh khỏi phishing. Ví dụ, khi bạn truy cập trang web faceb00k.com (phishing web), phần mềm quản lý mật khẩu sẽ không điền mật khẩu của trang web facebook.com vào trang faceb00k.com.
