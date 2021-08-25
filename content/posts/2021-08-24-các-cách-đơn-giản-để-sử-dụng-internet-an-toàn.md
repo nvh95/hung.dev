@@ -10,7 +10,7 @@ category: Tips
 tags:
   - sử dụng internet an toàn
 ---
-Hơn một năm rưỡi trước, không ai nghĩ dịch bệnh sẽ lây lan và ảnh hưởng đến đời sống xã hội một cách nặng nề như hiện nay. Các ca bệnh từ khi còn ở rất xa chúng ta, dường như "không phải chuyện của mình", đến khi ngày càng nhiều nơi trên cả nước có người nhiễm, đến khi chúng ta nghe tin dãy nhà bên cạnh có các ca dương tính, và khi đó, nguy cơ đã hiện hữu quanh mỗi chúng ta. Nếu trong vài tháng đổ lại đây, bạn có nghe ai đó nói: bị hack facebook rồi lừa người quen chuyển khoản, bị hacker hack tiền trong tài khoản ngân hàng,..., thì xin đừng chủ quan, vì giống như đại dịch COVID-19, các mối nguy hại khi sử dụng internet luôn luôn hiện hữu và lây lan rất nhanh, không chừa một ai cả. Giống như phòng dịch, chỉ có bổ sung kiến thức và nâng cao ý thức của mỗi cá nhân, chúng ta mới có thể an toàn trước thế giới số được. Trong bài viết này, mình xin chia sẻ một vài cách để an toàn hơn khi sử dụng internet.
+Hơn một năm rưỡi trước, không ai nghĩ dịch bệnh sẽ lây lan và ảnh hưởng đến đời sống xã hội một cách nặng nề như hiện nay. Các ca bệnh từ khi còn ở rất xa chúng ta, dường như "không phải chuyện của mình", đến khi ngày càng nhiều nơi trên cả nước có người nhiễm, đến khi chúng ta nghe tin dãy nhà bên cạnh có các ca dương tính, và khi đó, nguy cơ đã hiện hữu quanh mỗi chúng ta. Nếu trong vài tháng đổ lại đây, bạn có nghe ai đó nói: bị hack facebook rồi lừa người quen chuyển khoản, bị hacker hack tiền trong tài khoản ngân hàng..., thì xin đừng chủ quan, vì giống như đại dịch COVID-19, các mối nguy hại khi sử dụng internet luôn luôn hiện hữu và lây lan rất nhanh, không chừa một ai cả. Giống như phòng dịch, chỉ có bổ sung kiến thức và nâng cao ý thức của mỗi cá nhân, chúng ta mới có thể an toàn trước thế giới số được. Trong bài viết này, mình xin chia sẻ một vài cách để an toàn hơn khi sử dụng internet.
 
 ### 1. Không để trùng password
 
@@ -23,7 +23,7 @@ Lại là mật khẩu! Vâng, thực ra theo cá nhân của mình hầu hết 
 ![](/media/weak-password.png "Mật khẩu quá đơn giản như tên và ngày sinh sẽ nhanh chóng bị các hệ thống máy tính crack")
 *Mật khẩu quá đơn giản như tên và ngày sinh sẽ nhanh chóng bị các hệ thống máy tính crack*
 
-Tuyệt đối không đưa các thông tin cá nhân của mình vào mật khẩu như: tên, ngày sinh, số điện thoại của mình và người thân, bạn bè, tên thú cưng, địa chỉ nhà,...  
+Tuyệt đối không đưa các thông tin cá nhân của mình vào mật khẩu như: tên, ngày sinh, số điện thoại của mình và người thân, bạn bè, tên thú cưng, địa chỉ nhà...  
 
 Yếu tố quan trọng nhất để có một mật khẩu an toàn là độ dài, hãy đặt một mật khẩu dài ít nhất 12 ký tự, ví dụ như sau:
 
@@ -75,7 +75,7 @@ Lưu ý: Điều này không đồng nghĩa với việc các trang web có hìn
 
 ### 6. Nhận biết các trang web phishing và không nhập mật khẩu vào các trang web đó
 
-Đây là hình thức lừa đảo phổ biến bậc nhất và rất khó để những người không chuyên về công nghệ để có thể phân biệt được. Trước tiên phishing là gì? Hiểu nôm na, **phishing attack là hình thức tấn công dụ người dùng vào một trang web của kẻ tấn công và dụ người dùng nhập password vào**. Các trang web phishing có thể thiết kế trông y hệt một trang web mà bạn vẫn hay vào như facebook, gmail, icloud,..., hay núp bóng các hình thức như để có thể bình chọn, hay nhận thưởng, bạn phải kết nối tài khoản facebook, google... Một khi bạn thực hiện các thao tác trên, tài khoản của bạn sẽ bị mất, mặc cho mật khẩu của bạn có phức tạp như thế nào.
+Đây là hình thức lừa đảo phổ biến bậc nhất và rất khó để những người không chuyên về công nghệ để có thể phân biệt được. Trước tiên phishing là gì? Hiểu nôm na, **phishing attack là hình thức tấn công dụ người dùng vào một trang web của kẻ tấn công và dụ người dùng nhập password vào**. Các trang web phishing có thể thiết kế trông y hệt một trang web mà bạn vẫn hay vào như facebook, gmail, iCloud..., hay núp bóng các hình thức như để có thể bình chọn, hay nhận thưởng, bạn phải kết nối tài khoản facebook, google... Một khi bạn thực hiện các thao tác trên, tài khoản của bạn sẽ bị mất, mặc cho mật khẩu của bạn có phức tạp như thế nào.
 
 Hãy cùng điểm qua một vài hình thức phishing nhé
 
