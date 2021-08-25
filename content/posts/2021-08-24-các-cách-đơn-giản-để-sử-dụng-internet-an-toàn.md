@@ -127,7 +127,7 @@ Nói chung, sẽ rất khó để thuyết phục một người quen sử dụn
 
 ### 9. Luôn cập nhật nâng cao các kiến thức về bảo mật
 
-Các hình thức lửa đảo và tấn công mạng ngày càng tinh vi, nên chỉ có một cách duy nhất để đối phó đó là nâng cao nhận thức và cập nhật các kiến thức về bảo mật thường xuyên. Có rất nhiều nguồn tài liệu để giúp bạn đạt được việc đó. Trong khuôn khổ bài viết này, mình xin giới thiệu đến mọi người một Facebook page, đó là Cookie Hân Hoan. Fanpage với sứ mệnh **"Đánh thức tiềm năng nhận thức an toàn bảo mật thông tin. Đồng thời hướng dẫn bạn sinh tồn, an toàn hơn trên Internet."** truyền tải các thông tin về bảo mật dành cho mọi người một cách rất dễ hiểu và vui, vừa nâng cao kiến thức, vừa thư giãn, giải trí. Giống như tiếng Anh cần "mưa dầm thấm lâu", nâng cao kiến thức về bảo mật cũng cần "mưa dầm thấm lâu" vậy
+Các hình thức lửa đảo và tấn công mạng ngày càng tinh vi, nên chỉ có một cách duy nhất để đối phó đó là nâng cao nhận thức và cập nhật các kiến thức về bảo mật thường xuyên. Có rất nhiều nguồn tài liệu để giúp bạn đạt được việc đó. Trong khuôn khổ bài viết này, mình xin giới thiệu đến mọi người một Facebook page, đó là [Cookie Hân Hoan](https://www.facebook.com/cookie.han.hoan). Fanpage với sứ mệnh **"Đánh thức tiềm năng nhận thức an toàn bảo mật thông tin. Đồng thời hướng dẫn bạn sinh tồn, an toàn hơn trên Internet."** truyền tải các thông tin về bảo mật dành cho mọi người một cách rất dễ hiểu và vui, vừa nâng cao kiến thức, vừa thư giãn, giải trí. Giống như tiếng Anh cần "mưa dầm thấm lâu", nâng cao kiến thức về bảo mật cũng cần "mưa dầm thấm lâu" vậy
 
 ![](/media/cookie-han-hoan.jpeg)
 
