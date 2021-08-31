@@ -9,6 +9,7 @@ description: Làm sao để không bị mất nick facebook và không mất ti�
 category: Tips
 tags:
   - sử dụng internet an toàn
+socialImage: "/media/safe-internet.png"
 ---
 Hơn một năm rưỡi trước, không ai nghĩ dịch bệnh sẽ lây lan và ảnh hưởng đến đời sống xã hội một cách nặng nề như hiện nay. Các ca bệnh từ khi còn ở rất xa chúng ta, dường như "không phải chuyện của mình", đến khi ngày càng nhiều nơi trên cả nước có người nhiễm, đến khi chúng ta nghe tin dãy nhà bên cạnh có các ca dương tính, và khi đó, nguy cơ đã hiện hữu quanh mỗi chúng ta. Nếu trong vài tháng đổ lại đây, bạn có nghe ai đó nói: bị hack facebook rồi lừa người quen chuyển khoản, bị hacker hack tiền trong tài khoản ngân hàng..., thì xin đừng chủ quan, vì giống như đại dịch COVID-19, các mối nguy hại khi sử dụng internet luôn luôn hiện hữu và lây lan rất nhanh, không chừa một ai cả. Giống như phòng dịch, chỉ có bổ sung kiến thức và nâng cao ý thức của mỗi cá nhân, chúng ta mới có thể an toàn trước thế giới số được. Trong bài viết này, mình xin chia sẻ một vài cách để an toàn hơn khi sử dụng internet.
 
