@@ -166,5 +166,9 @@ figcaption {
   .float-left {
     float: left;
   }
+}
 
+::selection {
+  background: hsl(312, 91%, 66%);
+  color: white;
 }
