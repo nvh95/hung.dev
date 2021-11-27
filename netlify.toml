@@ -7,5 +7,5 @@
 [[redirects]]
   from = "/cv"
   to = "https://hung-dev.notion.site/hung-dev/Hung-Nguyen-e643118bf60d4125a323f67092c05573"
-  status = 200
-  force = true
+  status = 301
+  force = false
