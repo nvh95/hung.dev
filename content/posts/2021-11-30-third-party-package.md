@@ -16,7 +16,7 @@ socialImage: "/media/npm-start.jpg"
 ---
 ![Reinvent the wheel](/media/wheel.jpg)
 
-_I would like to express my sincere thanks to [@tamhoang1412](https://github.com/tamhoang1412) and [@mattmurph9](https://github.com/mattmurph9) for reviewing and proofreading this post._
+_I would like to express my sincere thanks to [@tamhoang1412](https://www.linkedin.com/in/tamhoang1412/) and [@mattmurph9](https://github.com/mattmurph9) for reviewing and proofreading this post._
 ## Introduction
 
 A wise man once said "don't reinvent the wheel". It's true for every industry, including software development. When developing a feature, sometimes you are in a situation "I need a third party package". So, how to correctly choose a library or package? In the past, whenever I thought I needed an external library, I just googled it (e.g: react charting libraries), chose a random package, then tried it. If it worked, I used it. But it turned out that this strategy was not optimal. In this article, I will share some personal tips for choosing a javascript package. But these tips can be applied to any other language, framework, or even when choosing a language for your team.
