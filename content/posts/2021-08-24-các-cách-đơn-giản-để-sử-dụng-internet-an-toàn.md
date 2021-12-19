@@ -43,7 +43,7 @@ Mình đã viết một bài viết chi tiết về vấn đề này ở [đây]
 
 \- Tự động điền mật khẩu vào các trang web, phòng chống [Phishing](#6-nhận-biết-các-trang-web-phishing-và-không-nhập-mật-khẩu-vào-các-trang-web-đó)
 
-![Bitwarden](https://bitwarden.com/images/products/products-hero.png)
+![Bitwarden](/media/bitwarden.webp)
 
 *Với các bạn trẻ thì việc làm quen và sử dụng các phần mềm quản lý mật khẩu sẽ không là vấn đề gì. Tuy nhiên, với nhiều người lớn tuổi thì tương đối khó dùng. Nhiều các cô các bác có thói quen ghi mật khẩu vào Note trên điện thoại. Trước đây việc này là một việc gần như tối kị. Tuy nhiên gần đây mình để ý thấy các ứng dụng như Notes trên iPhone hay Samsung Notes đã bổ sung tính năng khoá một ghi chú lại bằng mật khẩu. Mình không khuyến khích cách này, nhưng ít ra, các cô các bác nếu gặp khó khăn trong việc sử dụng các phần mềm quản lý mật khẩu thì hãy bật tính năng khoá các ghi chú quan trọng lại nhé.*
 
