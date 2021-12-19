@@ -3,11 +3,11 @@
 module.exports = {
   url: 'https://hung.dev',
   pathPrefix: '/',
-  title: 'Blog by Hung Viet Nguyen',
-  subtitle: 'Hung Viet Nguyen',
+  title: 'Blog by hung.dev',
+  subtitle: 'hung.dev',
   copyright: '© All rights reserved.',
   disqusShortname: 'hung-dev',
-  postsPerPage: 4,
+  postsPerPage: 20,
   googleAnalyticsId: 'UA-116900824-2',
   useKatex: false,
   menu: [
