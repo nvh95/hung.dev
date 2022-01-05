@@ -5,7 +5,7 @@ slug: referrer-policy
 draft: false
 date: 2021-05-27T17:24:44.755Z
 description: Tìm hiểu về Referrer-Policy và cách nó bảo vệ bạn khi truy cập internet
-category: Blog
+category: "Blog"
 tags:
   - referer
   - referrer-policy

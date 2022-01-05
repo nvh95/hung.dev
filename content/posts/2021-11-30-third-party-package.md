@@ -5,7 +5,7 @@ slug: choose-third-party-package
 draft: false
 date: 2021-11-29T17:24:56.135Z
 description: Guideline to choose a third party package
-category: blog
+category: "Blog"
 tags:
   - npm
   - third party package

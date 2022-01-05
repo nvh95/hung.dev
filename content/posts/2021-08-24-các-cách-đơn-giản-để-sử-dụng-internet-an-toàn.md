@@ -6,7 +6,7 @@ draft: false
 date: 2021-08-24T16:18:17.742Z
 description: Làm sao để không bị mất nick facebook và không mất tiền trong tài
   khoản ngân hàng.
-category: Tips
+category: "Tips"
 tags:
   - sử dụng internet an toàn
 socialImage: "/media/safe-internet.png"
