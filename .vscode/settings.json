@@ -1,5 +1,3 @@
 {
-    "cSpell.enableFiletypes": [
-        "!markdown"
-    ]
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
