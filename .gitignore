@@ -1,6 +1,6 @@
 node_modules/
 .cache/
-public/
+.next
 npm-debug.log
 .eslintcache
 .gatsby-context.js
@@ -10,3 +10,5 @@ gatsby-starter-lumen.iml
 # Local Netlify folder
 .netlify
 .env
+public/sitemap.xml
+public/feed.xml
