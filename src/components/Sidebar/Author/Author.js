@@ -7,7 +7,8 @@ type Props = {
   author: {
     name: string,
     bio: string,
-    photo: string
+    photo: string,
+    gif: String,
   },
   isIndex: ?boolean
 };
@@ -16,7 +17,7 @@ const Author = ({ author, isIndex }: Props) => (
   <div className={styles['author']}>
     <Link to="/">
       <img
-        src={withPrefix(author.photo)}
+        src={withPrefix(author.gif)}
         className={styles['author__photo']}
         width="75"
         height="75"

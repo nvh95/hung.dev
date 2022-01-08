@@ -27,6 +27,7 @@ module.exports = {
   author: {
     name: 'Hung.Dev',
     photo: '/photo.jpg',
+    gif: '/photo.gif',
     bio: 'Software Engineer. Amateur Triathlete',
     contacts: {
       email: '',
