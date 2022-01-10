@@ -4,7 +4,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link href="/site.webmanifest" rel="manifest" />
+        </Head>
         <body>
           <Main />
           <NextScript />
