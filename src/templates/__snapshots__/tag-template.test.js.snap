@@ -20,7 +20,7 @@ exports[`TagTemplate renders correctly 1`] = `
             alt="Test name"
             className="author__photo"
             height="75"
-            src="/test.jpg"
+            src="/gif.gif"
             width="75"
           />
         </a>
