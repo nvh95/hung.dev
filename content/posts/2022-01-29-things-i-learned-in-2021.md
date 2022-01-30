@@ -16,7 +16,7 @@ tags:
   - ctf
   - web security
   - aws
-socialImage: "/media/2021/thumbnail.png"
+socialImage: "/media/2021/socialimage.png"
 ---
 
 At the beginning of 2021, I knew that I’m in the middle of Valley of Despair of the [Dunning-Kruger Effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). I also realized that I was having a lot of gaps in my knowledge. So I forced myself to learn and practice harder than previous years to fill these holes. In this post, I want to share something that I did and learned through the year, with some context on each item. I think it’s good for me to look back, and it also helps me to plan better this year (2022). Moreover, I love sharing 😬
