@@ -1,7 +1,7 @@
 ---
 template: post
 title: Things I learned in 2021
-slug: learn-2021
+slug: learned-2021
 draft: false
 date: 2022-01-29T18:13:34.496Z
 description: About what I learned in 2021.
@@ -16,9 +16,10 @@ tags:
   - ctf
   - web security
   - aws
+socialImage: "/media/2021/thumbnail.png"
 ---
 
-At the beginning of 2021, I knew that I’m in the middle of Valley of Despair of the [Dunning-Kruger Effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). I also realized that I was having a lot of gaps in my knowledge. So I forced myself to learn and practice harder than previous years to fill these holes. In this post, I want to share something that I did and learned through the year, with some context on each item. I think it’s good for me to look back, and it also helps me to plan better this year (2022). And the next reason is that I love sharing 😬
+At the beginning of 2021, I knew that I’m in the middle of Valley of Despair of the [Dunning-Kruger Effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). I also realized that I was having a lot of gaps in my knowledge. So I forced myself to learn and practice harder than previous years to fill these holes. In this post, I want to share something that I did and learned through the year, with some context on each item. I think it’s good for me to look back, and it also helps me to plan better this year (2022). Moreover, I love sharing 😬
 
 ![Dunning-Kruger Effect](/media/2021/dunningkruger.png)
 
@@ -27,13 +28,14 @@ At the beginning of 2021, I knew that I’m in the middle of Valley of Despair o
 ![linked in package](/media/2021/package.png)
 
 I did release an [open source package](https://www.npmjs.com/package/react-linkedin-login-oauth2) 4 years ago (2018). It basically helps you to integrate the Login with Linkedin feature to a React application easily. When I start this, I just do it for fun and thought no one was gonna use this library. But after a long time, I see that there are some people who actually installed my package. I also received bug reports and feature requests. (All of that happens without zero advertising). I decided to spend some weekends working on this little project. People started to thank me for helping them. I felt wonderful that my work can save some people’s time. I also learned a lot (I will write a post on what I learned when doing open source). I realized that I actually received more than I gave to the community.
+
 In October, I wanted to [release the package to version 2.x](https://github.com/nvh95/react-linkedin-login-oauth2/pull/50) to tackle some major problems in version 1.x. I learned a lot. I converted my code to Typescript, I learned more about Typescript. I used Rollup to bundle my code instead of webpack to support [ECMAScript modules](https://nodejs.org/api/esm.html), to leverage the [Tree Shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) feature. For the first time, I knew about Vite, and use it for the example while developing the package. I had so much fun working on these items and learn so much. After investing some time in the project, I see the strike in the number of weekly downloads that amazed me. It reached about 4000 downloads per week. There are many things to do for this little project and I hope I can make it better in 2022.
 
 ## Participated more actively in the open source world
 
 ![opensource](/media/2021/opensource.png)
 
-I love open source. I use open source software every-single-day. I use React, Node.js, VS Code and many many other things. I think open source plays a big role in bringing humanity this far. The good thing about open source is that everyone can make their lives and others’ lives much easier and more enjoyable. Anyone can contribute to the open source. It does not require you have to write code to core services of a framework or application. It can be anything, from a typo to the recommendations, the feedback about the software. This year, besides using open source software, I started to give back the community by contributing commits, participating discussions, answering questions, sharing my solutions to the problem I couldn't google. I feel great and I did learn a ton. Next year, I target to contribute more to some projects that I like and am interested like msw and Next.js.
+I love open source. I use open source software every-single-day. I use React, Node.js, VS Code and many many other things. I think open source plays a big role in bringing humanity this far. The good thing about open source is that everyone can make their lives and others’ lives much easier and more enjoyable. Anyone can contribute to the open source. It does not require you have to write code to core services of a framework or application. It can be anything, from a typo to the recommendations, the feedback about the software. This year, besides using open source software, I started to give back the community by contributing commits, participating discussions, answering questions, sharing my solutions to the problem I couldn't google. I feel great and I did learn a ton. Next year, I target to contribute more to some projects that I like and am interested like [msw](https://mswjs.io/) and [Next.js](https://nextjs.org/).
 
 ## Adopt Typescript
 
@@ -71,7 +73,7 @@ I heard a about [Next.js](https://nextjs.org/) for quite a long time, especially
 
 ![children playing capture the flag](/media/2021/ctf.jpeg)
 
-CTF (Capture The Flag) is a security competition, participants are hackers, it’s not for someone who is not focused on security. That’s what I thought for almost ten years. Last year, one of my friends invited me to [a CTF for students in high school](https://junior.ctflag.asia/), organized by [CyberJutsu](https://cyberjutsu.io/) and [CyberKids](https://cyberkid.vn/). He persuaded me that it would be fun. It intrigued me and I accepted his invitation. I was surprised that CTF is not something “just for hackers” as I thought before. It’s all about things we already know, but do we actually understand them? All the challenges contain no new knowledge and concept, but the way those existing concepts combine and are being used smartly really dazzled me. I learned a lot from the competition and I have to look back seriously about what I thought that I already know and understand. After that, I also join 2 workshops hosted by CyberJutsu and learn much knowledge about computer security and exploit skills such as attacking using file, path traversal, template injection…
+CTF (Capture The Flag) is a security competition, participants are hackers, it’s not for someone who is not focused on security. That’s what I thought for almost ten years. Last year, one of my friends invited me to [a CTF for students in high school](https://junior.ctflag.asia/), organized by [CyberJutsu](https://cyberjutsu.io/) and [CyberKid](https://cyberkid.vn/). He persuaded me that it would be fun. It intrigued me and I accepted his invitation. I was surprised that CTF is not something “just for hackers” as I thought before. It’s all about things we already know, but do we actually understand them? All the challenges contain no new knowledge and concept, but the way those existing concepts combine and are being used smartly really dazzled me. I learned a lot from the competition and I have to look back seriously about what I thought that I already know and understand. After that, I also join 2 workshops hosted by CyberJutsu and learn much knowledge about computer security and exploit skills such as attacking using file, path traversal, template injection…
 
 ## Take Web Security course from Standford
 
@@ -107,7 +109,7 @@ We are living in a cloud era. The age of every company that needs to have a phys
 
 ![blue bird](/media/2021/twitter.png)
 
-I had a twitter account for a long time. But twitter is not very popular in my country, so I just do not use it. This year, I use twitter to follow some cool people in the technology industry, famous guys specializes in frontend in particular. I was surprised that I learned so much on twitter. I can see the current trending technology, also follow and participate in technical discussions with like-minded people. If you’re using twitter, [let’s connect with me](https://twitter.com/hung_dev). Following are some of my favorite resources which I knew through twitter:
+I had a twitter account for a long time. But twitter is not very popular in my country, so I just do not use it. This year, I use twitter to follow some cool people in the technology industry, famous guys specializes in frontend in particular. I was surprised that I learned so much on twitter. I can see the current trending technology, also follow and participate in technical discussions with like-minded people. If you’re using twitter, [let’s connect](https://twitter.com/hung_dev). Following are some of my favorite resources which I knew through twitter:
 
 - [Josh W Comeau’s blog](https://www.joshwcomeau.com/)
 - [Lee Rob’s blog](https://leerob.io/)
