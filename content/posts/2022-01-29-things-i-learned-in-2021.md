@@ -112,7 +112,7 @@ We are living in a cloud era. The age of every company that needs to have a phys
 I had a twitter account for a long time. But twitter is not very popular in my country, so I just do not use it. This year, I use twitter to follow some cool people in the technology industry, famous guys specializes in frontend in particular. I was surprised that I learned so much on twitter. I can see the current trending technology, also follow and participate in technical discussions with like-minded people. If you’re using twitter, [let’s connect](https://twitter.com/hung_dev). Following are some of my favorite resources which I knew through twitter:
 
 - [Josh W Comeau’s blog](https://www.joshwcomeau.com/)
-- [Lee Rob’s blog](https://leerob.io/)
+- [Lee Robinson's blog](https://leerob.io/)
 - [LogRocket Podcast](https://podrocket.logrocket.com/)
 - [Devtools.fm](https://devtools.fm/)
 
