@@ -8,7 +8,7 @@ type Props = {
     name: string,
     bio: string,
     photo: string,
-    gif: String,
+    gif: string,
   },
   isIndex: ?boolean
 };

@@ -26,6 +26,7 @@ module.exports = {
       author: {
         name: 'Test name',
         photo: '/test.jpg',
+        gif: '/gif.gif',
         bio: 'Test bio',
         contacts: {
           email: '#',
