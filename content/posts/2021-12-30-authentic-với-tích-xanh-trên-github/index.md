@@ -71,6 +71,7 @@ Chạy lệnh dưới đây, làm theo hướng dẫn điền để chọn loạ
 ```bash
 gpg --full-generate-key
 ```
+*Lưu ý trong câu hỏi `What keysize do you want?`, key của bạn phải dài ít nhất 4096 bits.*
 
 Chạy lệnh dưới đây để hiện long form của GPG key:
 
