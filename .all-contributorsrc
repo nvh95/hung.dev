@@ -41,6 +41,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "khuctrang",
+      "name": "khuctrang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10876529?v=4",
+      "profile": "https://github.com/khuctrang",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
