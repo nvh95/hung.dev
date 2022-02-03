@@ -16,7 +16,7 @@ tags:
   - ctf
   - web security
   - aws
-socialImage: "/media/2021/thumbnail.png"
+socialImage: "/media/2021/socialimage.png"
 ---
 
 At the beginning of 2021, I knew that I’m in the middle of Valley of Despair of the [Dunning-Kruger Effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). I also realized that I was having a lot of gaps in my knowledge. So I forced myself to learn and practice harder than previous years to fill these holes. In this post, I want to share something that I did and learned through the year, with some context on each item. I think it’s good for me to look back, and it also helps me to plan better this year (2022). Moreover, I love sharing 😬
@@ -41,7 +41,7 @@ I love open source. I use open source software every-single-day. I use React, No
 
 ![Typescript](/media/2021/typescript.png)
 
-I worked with Javascript every day for more than 4 years. You might heard “Javascript is great”. Yeah, I love it. You might hear “Javascript is terrible”. Well, I... don’t disagree. I knew the good and the bad things about javascript but I still love it overall. It gives me flexibility, but also gives me “Cannot read properties of undefined” 😂. Until one day, Microsoft introduced Typescript. I heard about it and thought: “Ok, javascript with types, just another tech. No thanks, I’m good with pure javascript”. But a few months ago, I decided to experiment Typescript for a greenfield project at my company. My teammates and I were amazed by how Typescript helps us improve the quality of our code and catch almost all the potential bugs early. Most important, Typescript gives us a high level of confidence to ship our code to production. Typescript also gives Github Copilot a lot of context, so Copilot can be really helpful on giving suggestions. I have much fun working with both Typescript and Copilot. Typescript is not just a “type system” as I imagined before. It’s truly your best sidekick.
+I worked with Javascript every day for more than 4 years. You might hear “Javascript is great”. Yeah, I love it. You might hear “Javascript is terrible”. Well, I... don’t disagree. I knew the good and the bad things about javascript but I still love it overall. It gives me flexibility, but also gives me “Cannot read properties of undefined” 😂. Until one day, Microsoft introduced Typescript. I heard about it and thought: “Ok, javascript with types, just another tech. No thanks, I’m good with pure javascript”. But a few months ago, I decided to experiment Typescript for a greenfield project at my company. My teammates and I were amazed by how Typescript helps us improve the quality of our code and catch almost all the potential bugs early. Most important, Typescript gives us a high level of confidence to ship our code to production. Typescript also gives Github Copilot a lot of context, so Copilot can be really helpful on giving suggestions. I have much fun working with both Typescript and Copilot. Typescript is not just a “type system” as I imagined before. It’s truly your best sidekick.
 
 ## Study CSS
 
@@ -112,7 +112,7 @@ We are living in a cloud era. The age of every company that needs to have a phys
 I had a twitter account for a long time. But twitter is not very popular in my country, so I just do not use it. This year, I use twitter to follow some cool people in the technology industry, famous guys specializes in frontend in particular. I was surprised that I learned so much on twitter. I can see the current trending technology, also follow and participate in technical discussions with like-minded people. If you’re using twitter, [let’s connect](https://twitter.com/hung_dev). Following are some of my favorite resources which I knew through twitter:
 
 - [Josh W Comeau’s blog](https://www.joshwcomeau.com/)
-- [Lee Rob’s blog](https://leerob.io/)
+- [Lee Robinson's blog](https://leerob.io/)
 - [LogRocket Podcast](https://podrocket.logrocket.com/)
 - [Devtools.fm](https://devtools.fm/)
 
