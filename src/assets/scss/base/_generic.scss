@@ -172,3 +172,11 @@ figcaption {
   background: hsl(312, 91%, 66%);
   color: white;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+}
