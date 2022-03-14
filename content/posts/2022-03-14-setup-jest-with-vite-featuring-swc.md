@@ -21,6 +21,7 @@ Web applications are becoming an indispensable part of our lives. We can build l
 
 You can find the final code here: [https://github.com/nvh95/jest-with-vite](https://github.com/nvh95/jest-with-vite)
 
+## Integrating Jest to Vite
 1.  First, generate React Typescript project using Vite. I’m gonna using `npm`, you can use `yarn` or `pnpm`:
 
     ```bash
@@ -376,4 +377,5 @@ At this moment, you can run the test successfully.
 
 Using `@swc/jest` to compile code to CommonJS is much faster than [babel-jest](https://www.npmjs.com/package/babel-jest), [ts-jest](https://github.com/kulshekhar/ts-jest) which have long cold starts when executing tests in a large project.
 
+## Outro
 Hooray. Congratulations, you’ve successfully integrated Jest with Vite. But our journey is not over yet. In the next post, we’re going deal with [Vite variable environment](https://vitejs.dev/guide/env-and-mode.html#env-variables) with special syntax `import.meta.env` together. And some preview on a blazing fast unit-test framework powered by Vite: [Vitest](https://vitest.dev/). Stay tuned! Happy coding!
