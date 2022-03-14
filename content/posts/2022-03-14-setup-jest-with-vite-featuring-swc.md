@@ -13,6 +13,7 @@ tags:
   - test
   - react
   - javascript
+socialImage: "/media/jest-vite/thumbnail.png"
 ---
 
 ## Motivation
@@ -22,6 +23,7 @@ Web applications are becoming an indispensable part of our lives. We can build l
 You can find the final code here: [https://github.com/nvh95/jest-with-vite](https://github.com/nvh95/jest-with-vite)
 
 ## Integrating Jest to Vite
+
 1.  First, generate React Typescript project using Vite. I’m gonna using `npm`, you can use `yarn` or `pnpm`:
 
     ```bash
@@ -38,9 +40,9 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
 
 3.  Install react-testing-library packages:
 
-    - `@testing-library/jest-dom`: provides a set of custom jest matchers that you can use to extend jest (e.g: `toBeInTheDocument()`)
-    - `@testing-library/react`: say no to [implementation details testing](https://kentcdodds.com/blog/testing-implementation-details)
-    - `@testing-library/user-event`: interacts with our UI (fun fact: it can be used in production for real interaction!)
+    **@testing-library/jest-dom**: provides a set of custom jest matchers that you can use to extend jest (e.g: `toBeInTheDocument()`)
+    **@testing-library/react**: say no to [implementation details testing](https://kentcdodds.com/blog/testing-implementation-details)
+    **@testing-library/user-event**: interacts with our UI (fun fact: it can be used in production for real interaction!)
 
     ```bash
     npm i @testing-library/jest-dom @testing-library/react @testing-library/user-event --save-dev
@@ -48,7 +50,7 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
 
 4.  Exclude test files from typescript type checking when building for production, you don’t want a typescript error in your test file breaks your build in production.
 
-    1. Create `tsconfig.prod.json` which inherits `tsconfig.json`, exclude test files from the project:
+    Create `tsconfig.prod.json` which inherits `tsconfig.json`, exclude test files from the project:
 
     ```json
     // tsconfig.prod.json
@@ -62,7 +64,7 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
     }
     ```
 
-    2. Use `tsconfig.prod.json` when building:
+    Use `tsconfig.prod.json` when building:
 
     ```diff
     // Package.json
@@ -113,70 +115,63 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
 
 8.  Before moving forward, let’s tip the iceberg on what makes Vite so fast. One of the reasons is the native [ECMAScript Modules](https://nodejs.org/api/esm.html). In the development mode, build tools such as CRA bundles all of your code into a single file and serves via [a dev server](https://webpack.js.org/configuration/dev-server/). Vite took a different approach by not bundling your code at all. It leverages the native support for ESM of modern browsers. It sends your file directly without being bundled.
 
-    So, Vite takes advantage of ESM, on the other hand, Jest uses [CommonJS](https://nodejs.org/docs/latest/api/modules.html) (it actually has [experiment support for Native ESM](https://jestjs.io/docs/ecmascript-modules) but it’s not 100% ready now - March of 2022). That’s the reason why you see the error message as above when using `import` and `export`. So we have a few options here:
-
-    - Use [Jest experiment support](https://jestjs.io/docs/ecmascript-modules) for ESM
-    - Use [babel](https://babeljs.io/) to compile ESM to CommonJS (similar to what CRA does)
-    - Use high performance build tools like [esbuild](https://www.notion.so/2-Rough-Draft-3ea664c6e24e4dc48bb2b77ab7e19ac5) and [SWC](https://swc.rs/)
-
-          - `esbuild`: created by [Evan Wallace](https://twitter.com/evanwallace), co-founder of [figma](https://www.figma.com/). `esbuild` is written in Go and it is one of core components for the speed of Vite.
-
-          - `SWC`: created by [Donny (강동윤)](https://twitter.com/kdy1dev), a young talent developer from [Vercel](https://vercel.com/). `SWC` stands for Speedy Web Compiler and is written in Rust. SWC is adopted by Vercel and replaced babel to be the [compiler of NextJS since version 12](https://nextjs.org/blog/next-12#faster-builds-and-fast-refresh-with-rust-compiler).
+    So, Vite takes advantage of ESM, on the other hand, Jest uses [CommonJS](https://nodejs.org/docs/latest/api/modules.html) (it actually has [experiment support for Native ESM](https://jestjs.io/docs/ecmascript-modules) but it’s not 100% ready now - March of 2022). That’s the reason why you see the error message as above when using `import` and `export`. So we have a few options here: 1. Use [Jest experiment support](https://jestjs.io/docs/ecmascript-modules) for ESM 2. Use [babel](https://babeljs.io/) to compile ESM to CommonJS (similar to what CRA does) 3. Use high performance build tools like [esbuild](https://www.notion.so/2-Rough-Draft-3ea664c6e24e4dc48bb2b77ab7e19ac5) and [SWC](https://swc.rs/):
+    a. `esbuild`: created by [Evan Wallace](https://twitter.com/evanwallace), co-founder of [figma](https://www.figma.com/). `esbuild` is written in Go and it is one of core components for the speed of Vite.
+    b. `SWC`: created by [Donny (강동윤)](https://twitter.com/kdy1dev), a young talent developer from [Vercel](https://vercel.com/). `SWC` stands for Speedy Web Compiler and is written in Rust. SWC is adopted by Vercel and replaced babel to be the [compiler of NextJS since version 12](https://nextjs.org/blog/next-12#faster-builds-and-fast-refresh-with-rust-compiler).
 
     I did try Jest Native ESM support but it’s not stable right now. So the safe option is just to compile ESM to CommonJS. It’s a tough decision to make between esbuild and SWC.
 
-|      | esbuild                                                                                                                                                         | SWC                          |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| Pros | - Dependency of Vite already. So addition third party code will not be much.<br/>- @swc/jest is developed by author of swc<br/>- @swc/jest is in active development                                                                                 | - Used in NextJS             |
-| Cons | - esbuild-jest (which is a community package to use esbuild with jest) is not very active. The last commit is March 2021 (This post is published in March 2022) | - another library to install |
+    |      | esbuild                                                                                                                                                             | SWC                          |
+    | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+    | Pros | - Dependency of Vite already. So addition third party code will not be much.<br/>- @swc/jest is developed by author of swc<br/>- @swc/jest is in active development | - Used in NextJS             |
+    | Cons | - esbuild-jest (which is a community package to use esbuild with jest) is not very active. The last commit is March 2021 (This post is published in March 2022)     | - another library to install |
 
+    [Choosing a third party package](https://hung.dev/choose-third-party-package) is always a hard problem. So after considerations and experiments, I chose SWC.
 
-  [Choosing a third party package](https://hung.dev/choose-third-party-package) is always a hard problem. So after considerations and experiments, I chose SWC.
+    Install SWC by this command:
 
-  Install SWC by this command:
+    ```bash
+    npm i @swc/core @swc/jest --save-dev
+    ```
 
-  ```bash
-  npm i @swc/core @swc/jest --save-dev
-  ```
+    Configure swc by creating `.swcrc` file at the root of the project:
 
-  Configure swc by creating `.swcrc` file at the root of the project:
-
-  ```json
-  // .swcrc
-  {
-    "jsc": {
-      "target": "es2017",
-      "parser": {
-        "syntax": "typescript",
-        "tsx": true,
-        "decorators": false,
-        "dynamicImport": false
-      },
-      "transform": {
-        "react": {
-          "pragma": "React.createElement",
-          "pragmaFrag": "React.Fragment",
-          "throwIfNamespace": true,
-          "development": false,
-          "useBuiltins": false,
-          "runtime": "automatic"
+    ```json
+    // .swcrc
+    {
+      "jsc": {
+        "target": "es2017",
+        "parser": {
+          "syntax": "typescript",
+          "tsx": true,
+          "decorators": false,
+          "dynamicImport": false
         },
-        "hidden": {
-          "jest": true
+        "transform": {
+          "react": {
+            "pragma": "React.createElement",
+            "pragmaFrag": "React.Fragment",
+            "throwIfNamespace": true,
+            "development": false,
+            "useBuiltins": false,
+            "runtime": "automatic"
+          },
+          "hidden": {
+            "jest": true
+          }
         }
+      },
+      "module": {
+        "type": "commonjs",
+        "strict": false,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
       }
-    },
-    "module": {
-      "type": "commonjs",
-      "strict": false,
-      "strictMode": true,
-      "lazy": false,
-      "noInterop": false
     }
-  }
-  ```
+    ```
 
-  Note that if you use JSX runtime (likely that you do) that’s introduced in React 17, [you need to set](https://swc.rs/docs/configuration/compilation#jsctransformreactruntime) `jsc.transform.react.runtime` to `automatic` (as above). If you use `React.createElement`, you must set it to `classic`.
+    Note that if you use JSX runtime (likely that you do) that’s introduced in React 17, [you need to set](https://swc.rs/docs/configuration/compilation#jsctransformreactruntime) `jsc.transform.react.runtime` to `automatic` (as above). If you use `React.createElement`, you must set it to `classic`.
 
 9.  Configure Jest
 
@@ -231,7 +226,6 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
     };
     ```
 
-
     A lot of magic happens here but I can brief some important points.
 
     Transform code to CommonJS using SWC:
@@ -273,6 +267,8 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
       },
     };
     ```
+
+    &nbsp;
 
     ```jsx
     // config/jest/fileTransform.js
@@ -327,19 +323,24 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
     ],
     ```
 
+    &nbsp;
+
     ```bash
     // For jest <= 26
     npm i jest-watch-typeahead@0.6.5 --save-dev
     // For jest >= 27
     npm i jest-watch-typeahead --save-dev
     ```
-    ![Jest interactive mode](/media/jest-vite/jest-interactive.gif)
+
+    ![Jest interactive mode](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/41ah8p9kzxpytyqok753.gif)
 
     Everything you want to do to your test environment such as extends the jest matchers with [@testing-library/jest-dom](https://github.com/testing-library/jest-dom), mock some APIs that’s not implemented in [jdom](https://github.com/jsdom/jsdom), you can put to `config/jest/setupTests.js`:
 
     ```jsx
       setupFilesAfterEnv: ["./config/jest/setupTests.js"],
     ```
+
+    &nbsp;
 
     ```jsx
     // config/jest/setupTests.js
@@ -364,18 +365,19 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
 
 10. Uncomment the `render` in the test file and run `npm test`.
 
-```diff
-// src/__tests__/App.test.tsx
--    // render(<App />);
-+     render(<App />);
+    ```diff
+    // src/__tests__/App.test.tsx
+    -    // render(<App />);
+    +     render(<App />);
 
-```
+    ```
 
-At this moment, you can run the test successfully.
+    At this moment, you can run the test successfully.
 
-![Jest Passed](/media/jest-vite/jest-passed.png)
+    ![Jest Passed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oe86ty0jk5rrt7fjm91o.png)
 
-Using `@swc/jest` to compile code to CommonJS is much faster than [babel-jest](https://www.npmjs.com/package/babel-jest), [ts-jest](https://github.com/kulshekhar/ts-jest) which have long cold starts when executing tests in a large project.
+    Using `@swc/jest` to compile code to CommonJS is much faster than [babel-jest](https://www.npmjs.com/package/babel-jest), [ts-jest](https://github.com/kulshekhar/ts-jest) which have long cold starts when executing tests in a large project.
 
 ## Outro
+
 Hooray. Congratulations, you’ve successfully integrated Jest with Vite. But our journey is not over yet. In the next post, we’re going deal with [Vite variable environment](https://vitejs.dev/guide/env-and-mode.html#env-variables) with special syntax `import.meta.env` together. And some preview on a blazing fast unit-test framework powered by Vite: [Vitest](https://vitest.dev/). Stay tuned! Happy coding!
