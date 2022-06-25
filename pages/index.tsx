@@ -43,9 +43,9 @@ export default function HomePage({ posts }: { posts: Post[] }) {
           {/* Blog Posts */}
           <div className="flex flex-col">
             {posts.map((post) => (
-              <Link href={`/blog/${post.slug}`}>
+              <Link href={`/blog/${post.slug}`} key={post.slug}>
                 <a>
-                  <div key={post.slug} className="flex flex-col pb-6">
+                  <div className="flex flex-col pb-6">
                     <time className="text-sm uppercase">
                       {format(parseISO(post.created), 'MMMM dd, yyyy')}
                     </time>
