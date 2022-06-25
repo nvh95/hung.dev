@@ -1,0 +1,13 @@
+{
+    "name": "Hung Viet Nguyen",
+    "short_name": "hung.dev",
+    "description": "Developer, open source enthusiast, lifelong learner",
+    "icons": [],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "start_url": "/"
+}
