@@ -5,6 +5,7 @@ import clsx from 'clsx';
 interface SidebarProps {
   isMobile?: boolean;
 }
+
 function Sidebar({ isMobile = false }: SidebarProps) {
   return (
     <div
@@ -23,7 +24,7 @@ function Sidebar({ isMobile = false }: SidebarProps) {
       />
       <h1 className="font-bold text-lg py-4">Hung.Dev</h1>
       <p className="pb-4 text-gray-600 dark:text-gray-400">
-        Software Engineer. Amateur Triathlete
+        Developer, open source enthusiast, lifelong learner
       </p>
 
       <nav>
