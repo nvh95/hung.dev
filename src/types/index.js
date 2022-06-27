@@ -28,6 +28,7 @@ export type Node = {
     categorySlug?: string,
     tagSlugs?: string[]
   },
+  fileAbsolutePath: string,
   frontmatter: {
     date: string,
     description?: string,

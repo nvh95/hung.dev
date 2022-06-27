@@ -16,6 +16,7 @@ describe('Feed', () => {
               '/test-2'
             ]
           },
+          fileAbsolutePath: '/Users/hi/hung.dev/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md',
           frontmatter: {
             date: '2016-09-01',
             description: 'test_0',
@@ -41,6 +42,7 @@ describe('Feed', () => {
               '/test-2'
             ]
           },
+          fileAbsolutePath: '/Users/hi/hung.dev/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc2.md',
           frontmatter: {
             date: '2016-09-01',
             description: 'test_1',

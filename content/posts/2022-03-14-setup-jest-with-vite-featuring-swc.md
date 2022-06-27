@@ -318,7 +318,13 @@ Note that if you use JSX runtime (likely that you do) that’s introduced in Rea
     };
     ```
 
-    Add ability to search test files and test names in pattern mode. Note that if you using Jest ≤ 26, please install `jest-watch-typeahead@0.6.5`, if you use Jest ≥ 27, please use `jest-watch-typeahead^1.0.0`:
+    Remember to install `camelcase` as a dev dependency (do not install version 7, since it [dropped the support for CommonJS](https://github.com/sindresorhus/camelcase/releases/tag/v7.0.0)):
+
+    ```bash
+    npm install --save-dev camelcase@6
+    ```
+
+    Then, add ability to search test files and test names in pattern mode. Note that if you using Jest ≤ 26, please install `jest-watch-typeahead@0.6.5`, if you use Jest ≥ 27, please use `jest-watch-typeahead^1.0.0`:
 
     ```json
     watchPlugins: [

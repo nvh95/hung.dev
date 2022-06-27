@@ -75,6 +75,13 @@ exports[`PostTemplate renders correctly 1`] = `
           </li>
         </ul>
       </div>
+      <a
+        href="https://github.com/nvh95/hung.dev/edit/develop/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        📝 Edit this post on GitHub
+      </a>
       <div
         className="author"
       >
