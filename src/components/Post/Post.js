@@ -13,6 +13,15 @@ type Props = {
   post: Node
 };
 
+
+function getGitMarkdownUrl(absolutePath) {
+  const gitURL = 'https://github.com/nvh95/hung.dev/edit/develop';
+  const sliceIndex = absolutePath.indexOf('/content');
+  const markdownFileGitPath = absolutePath.slice(sliceIndex);
+  const blogPostOnGit = `${gitURL}${markdownFileGitPath}`;
+  return blogPostOnGit;
+}
+
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
@@ -29,6 +38,7 @@ const Post = ({ post }: Props) => {
       <div className={styles['post__footer']}>
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+        <a href={getGitMarkdownUrl(post.fileAbsolutePath)} target="_blank" rel="noopener noreferrer">📝 Edit this post on GitHub</a>
         <Author />
       </div>
 

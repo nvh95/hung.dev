@@ -28,6 +28,7 @@ describe('Post', () => {
           '/test_1'
         ]
       },
+      fileAbsolutePath: '/Users/hi/hung.dev/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md',
       frontmatter: {
         date: '2016-09-01',
         tags: [

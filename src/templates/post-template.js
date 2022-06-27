@@ -34,6 +34,7 @@ export const query = graphql`
         slug
         tagSlugs
       }
+      fileAbsolutePath
       frontmatter {
         date
         description
