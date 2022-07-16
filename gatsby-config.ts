@@ -205,5 +205,6 @@ export default {
         endpoint: process.env.MAILCHIMP_ENDPOINT,
       },
     },
+    "gatsby-plugin-netlify",
   ],
 };
