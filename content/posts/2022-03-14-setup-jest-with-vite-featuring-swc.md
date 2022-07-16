@@ -121,9 +121,9 @@ You can find the final code here: [https://github.com/nvh95/jest-with-vite](http
     - Use [babel](https://babeljs.io/) to compile ESM to CommonJS (similar to what CRA does)
     - Use high performance build tools like [esbuild](https://www.notion.so/2-Rough-Draft-3ea664c6e24e4dc48bb2b77ab7e19ac5) and [SWC](https://swc.rs/)
 
-          - `esbuild`: created by [Evan Wallace](https://twitter.com/evanwallace), co-founder of [figma](https://www.figma.com/). `esbuild` is written in Go and it is one of core components for the speed of Vite.
+      - `esbuild`: created by [Evan Wallace](https://twitter.com/evanwallace), co-founder of [figma](https://www.figma.com/). `esbuild` is written in Go and it is one of core components for the speed of Vite.
 
-          - `SWC`: created by [Donny (강동윤)](https://twitter.com/kdy1dev), a young talent developer from [Vercel](https://vercel.com/). `SWC` stands for Speedy Web Compiler and is written in Rust. SWC is adopted by Vercel and replaced babel to be the [compiler of NextJS since version 12](https://nextjs.org/blog/next-12#faster-builds-and-fast-refresh-with-rust-compiler).
+      - `SWC`: created by [Donny (강동윤)](https://twitter.com/kdy1dev), a young talent developer from [Vercel](https://vercel.com/). `SWC` stands for Speedy Web Compiler and is written in Rust. SWC is adopted by Vercel and replaced babel to be the [compiler of NextJS since version 12](https://nextjs.org/blog/next-12#faster-builds-and-fast-refresh-with-rust-compiler).
 
     I did try Jest Native ESM support but it’s not stable right now. So the safe option is just to compile ESM to CommonJS. It’s a tough decision to make between esbuild and SWC.
 
