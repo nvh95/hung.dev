@@ -30,6 +30,13 @@ exports[`PostTemplate renders correctly 1`] = `
           Sep 1, 2016
         </p>
       </div>
+      <a
+        href="https://github.com/nvh95/hung.dev/edit/develop/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        📝 Edit this post on GitHub
+      </a>
       <div>
         <p>
           Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.

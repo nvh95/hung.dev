@@ -5,6 +5,8 @@ export default {
     tagsSlugs: ["/handwriting", "/helvetica"],
     categorySlug: "/typography",
   },
+  fileAbsolutePath:
+    "/Users/hi/hung.dev/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md",
   frontmatter: {
     date: "2016-09-01",
     description:

@@ -4,7 +4,11 @@ exports[`Author renders correctly 1`] = `
 <div>
   <a
     href="/"
-  />
+  >
+    <img
+      alt="John Doe"
+    />
+  </a>
   <h2>
     <a
       href="/"
