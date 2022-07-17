@@ -1,9 +1,11 @@
 import React from "react";
 
 import { Link } from "gatsby";
+import toastr from "toastr";
 
 import { useSiteMetadata } from "@/hooks";
 import type { Node } from "@/types";
+import { getRandomElement } from "@/utils";
 
 import { Author } from "./Author";
 import { Comments } from "./Comments";
@@ -25,11 +27,77 @@ function getGitMarkdownUrl(absolutePath: string) {
   return blogPostOnGit;
 }
 
+const greeting = [
+  {
+    message: "Enjoy your reading!",
+  },
+  {
+    message: "Thank you for your visit!",
+  },
+  {
+    message: "Thank you for being you!",
+  },
+  {
+    message: "Have a nice day!",
+  },
+  {
+    message: "Have a productive day!",
+  },
+  {
+    message:
+      "Did you know that I created a library called Jest Preview? Click me to learn more.",
+    url: "www.jest-preview.com",
+  },
+  {
+    message: "Happy coding. Wanna visit my GitHub?",
+    url: "https://github.com/nvh95/",
+  },
+  {
+    message: "Do you tweet? Visit me on Twitter!",
+    url: "https://twitter.com/hung_dev",
+  },
+  {
+    message:
+      "Do you that you can subscribe to my blog to get notified when I publish new posts?",
+  },
+  {
+    message: "You are doing awesome. Keep it up!",
+  },
+  {
+    message: "Thank you for visiting my blog! I hope you enjoyed it.",
+  },
+  {
+    message:
+      "Wanna follow the growth of Javascript ecosystem? Visit bestofjs.org.",
+    url: "https://bestofjs.org",
+  },
+  {
+    message: "Do you know about Mock Service Worker? Click me to learn more.",
+    url: "https://mswjs.io",
+  },
+  {
+    message:
+      "Do you usually work with form? Click me to learn more about React Hook Form.",
+    url: "https://react-hook-form.com/",
+  },
+];
+
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
   const { author } = useSiteMetadata();
+
+  const handleClickAvatar = () => {
+    const randomGreeting = getRandomElement(greeting);
+    toastr.success(randomGreeting.message, "", {
+      onclick: () => {
+        if (randomGreeting.url) {
+          window.open(randomGreeting.url, "_blank", "noopener");
+        }
+      },
+    });
+  };
 
   return (
     <div className={styles.post}>
@@ -40,14 +108,16 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       <div className={styles.footer}>
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <a
-          href={getGitMarkdownUrl(post.fileAbsolutePath)}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          📝 Edit this post on GitHub
-        </a>
-
+        <div className={styles.links}>
+          <Link to="/"> ⬅️ All posts</Link>
+          <a
+            href={getGitMarkdownUrl(post.fileAbsolutePath)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📝 Edit this post on GitHub
+          </a>
+        </div>
         <Author />
       </div>
 
@@ -55,7 +125,7 @@ const Post: React.FC<Props> = ({ post }: Props) => {
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
 
-      <Link to="/">
+      <Link to="/" onClick={handleClickAvatar}>
         <img alt={author.name} src={author.gif} className={styles.photo} />
       </Link>
     </div>
