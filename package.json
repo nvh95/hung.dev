@@ -15,8 +15,8 @@
   "license": "MIT",
   "author": "Hung Viet Nguyen <viet@hung.dev>",
   "scripts": {
-    "build": "npm run clean && gatsby build",
-    "clean": "rimraf .cache public",
+    "build": "gatsby build",
+    "clean": "echo 'Hello'",
     "format": "npm run format:ts && npm run format:scss",
     "format:scss": "stylelint \"src/**/*.scss\" --fix",
     "format:ts": "eslint \"src\" --ext .tsx,.ts --fix && prettier --write .",
@@ -27,7 +27,7 @@
     "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
     "prepare": "husky install",
     "serve": "gatsby serve",
-    "start": "npm run clean && gatsby develop",
+    "start": "gatsby develop",
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
