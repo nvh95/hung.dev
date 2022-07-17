@@ -1,7 +1,27 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
+@keyframes slide-up {
+  from {
+    transform: translateY(160%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes appear-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: 1;
+  }
+}
+
 .photo {
+
+  animation: appear-opacity 2500ms;
   background-clip: padding-box;
   border-radius: 50%;
   bottom: 4vw;
@@ -11,6 +31,10 @@
   right: 4vw;
   width: 75px;
   @include margin-bottom(0);
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: slide-up 5000ms;
+  }
 }
 
 .post {
