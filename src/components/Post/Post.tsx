@@ -46,7 +46,7 @@ const greeting = [
   {
     message:
       "Did you know that I created a library called Jest Preview? Click me to learn more.",
-    url: "www.jest-preview.com",
+    url: "https://www.jest-preview.com",
   },
   {
     message: "Happy coding. Wanna visit my GitHub?",
@@ -59,6 +59,9 @@ const greeting = [
   {
     message:
       "Do you that you can subscribe to my blog to get notified when I publish new posts?",
+    action: () => {
+      document.getElementById("mce-EMAIL")?.focus();
+    },
   },
   {
     message: "You are doing awesome. Keep it up!",
@@ -94,6 +97,9 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       onclick: () => {
         if (randomGreeting.url) {
           window.open(randomGreeting.url, "_blank", "noopener");
+        }
+        if (randomGreeting.action) {
+          randomGreeting.action();
         }
       },
     });

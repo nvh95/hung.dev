@@ -46,11 +46,14 @@
     "@typescript-eslint/no-unused-vars": ["off"],
     "@typescript-eslint/no-use-before-define": ["off"],
     "@typescript-eslint/quotes": ["error", "double"],
-    "@typescript-eslint/naming-convention": ["error", {
-      "format": ["camelCase", "UPPER_CASE", "snake_case", "PascalCase"],
-      "leadingUnderscore": "allow",
-      "selector": "parameter"
-    }],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "format": ["camelCase", "UPPER_CASE", "snake_case", "PascalCase"],
+        "leadingUnderscore": "allow",
+        "selector": "parameter"
+      }
+    ],
     "react/static-property-placement": ["off"],
     "react/prop-types": ["off"],
     "simple-import-sort/imports": [
@@ -66,7 +69,8 @@
           ["w*(w*.*css)"]
         ]
       }
-    ]
+    ],
+    "multiline-comment-style": 0
   },
   "settings": {
     "import/resolver": {
