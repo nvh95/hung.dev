@@ -3,11 +3,6 @@
 exports[`PostTemplate renders correctly 1`] = `
 <div>
   <div>
-    <a
-      href="/"
-    >
-      All Articles
-    </a>
     <div>
       <div>
         <h1>
@@ -30,13 +25,20 @@ exports[`PostTemplate renders correctly 1`] = `
           Sep 1, 2016
         </p>
       </div>
-      <a
-        href="https://github.com/nvh95/hung.dev/edit/develop/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        📝 Edit this post on GitHub
-      </a>
+      <div>
+        <a
+          href="/"
+        >
+           ⬅️ All posts
+        </a>
+        <a
+          href="https://github.com/nvh95/hung.dev/edit/develop/content/posts/2022-03-14-setup-jest-with-vite-featuring-swc.md"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          📝 Edit this post on GitHub
+        </a>
+      </div>
       <div>
         <p>
           Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
@@ -54,6 +56,14 @@ exports[`PostTemplate renders correctly 1`] = `
       </div>
     </div>
     <div />
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="John Doe"
+      />
+    </a>
   </div>
 </div>
 `;

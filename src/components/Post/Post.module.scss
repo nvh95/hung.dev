@@ -1,6 +1,18 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
+.photo {
+  background-clip: padding-box;
+  border-radius: 50%;
+  bottom: 4vw;
+  display: inline-block;
+  height: 75px;
+  position: fixed;
+  right: 4vw;
+  width: 75px;
+  @include margin-bottom(0);
+}
+
 .post {
   .content {
     @include margin-auto();
@@ -39,6 +51,11 @@
       color: $color-primary;
     }
   }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
 }
 
 @include breakpoint-md {
