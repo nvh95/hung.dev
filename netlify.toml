@@ -9,3 +9,46 @@
   to = "https://hung-dev.notion.site/hung-dev/Hung-Nguyen-e643118bf60d4125a323f67092c05573"
   status = 301
   force = false
+[[redirects]]
+  from = "/hello-hung-dev"
+  to = "/posts/hello-hung-dev"
+
+[[redirects]]
+  from = "/clean-code-1"
+  to = "/posts/clean-code-1"
+
+[[redirects]]
+  from = "/safe-password"
+  to = "/posts/safe-password"
+
+[[redirects]]
+  from = "/bai-hoc-cho-tam-tri-khi-chay-cham"
+  to = "/posts/bai-hoc-cho-tam-tri-khi-chay-cham"
+
+[[redirects]]
+  from ="/slack-api-lixi"
+  to = "/posts/slack-api-lixi"
+
+[[redirects]]
+  from = "/referrer-policy"
+  to = "/posts/referrer-policy"
+
+[[redirects]]
+  from = "/safe-internet"
+  to = "/posts/safe-internet"
+
+[[redirects]]
+  from = "/choose-third-party-package"
+  to = "/posts/choose-third-party-package"
+
+[[redirects]]
+  from = "/tich-xanh-github"
+  to = "/posts/tich-xanh-github"
+
+[[redirects]]
+  from = "/learned-2021"
+  to = "/posts/learned-2021"
+
+[[redirects]]
+  from = "/jest-vite"
+  to = "/posts/jest-vite"

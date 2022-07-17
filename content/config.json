@@ -1,0 +1,47 @@
+{
+  "title": "Blog by hung.dev",
+  "url": "https://hung.dev",
+  "subtitle": "hung.dev",
+  "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "UA-116900824-2",
+  "disqusShortname": "hung-dev",
+  "postsLimit": 20,
+  "pathPrefix": "/",
+  "menu": [
+    {
+      "label": "Blogs",
+      "path": "/"
+    },
+    {
+      "label": "About me",
+      "path": "/pages/about"
+    },
+    {
+      "label": "Contact me",
+      "path": "/pages/contacts"
+    }
+  ],
+  "author": {
+    "name": "Hung.Dev",
+    "photo": "/photo.jpg",
+    "gif": "/photo.gif",
+    "bio": "Creator of Jest Preview. Open source enthusiast, lifelong learner.",
+    "contacts": {
+      "rss": "",
+      "email": "",
+      "github": "nvh95",
+      "facebook": "hungdotdev",
+      "telegram": "",
+      "twitter": "hung_dev",
+      "linkedin": "nvh95",
+      "instagram": "",
+      "line": "",
+      "weibo": "",
+      "gitlab": "",
+      "medium": "",
+      "youtube": "",
+      "codepen": "",
+      "soundcloud": ""
+    }
+  }
+}
