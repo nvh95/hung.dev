@@ -2,11 +2,6 @@
 
 exports[`Post renders correctly 1`] = `
 <div>
-  <a
-    href="/"
-  >
-    All Articles
-  </a>
   <div>
     <div>
       <h1>
@@ -53,5 +48,12 @@ exports[`Post renders correctly 1`] = `
     </div>
   </div>
   <div />
+  <a
+    href="/"
+  >
+    <img
+      alt="John Doe"
+    />
+  </a>
 </div>
 `;

@@ -2,6 +2,7 @@ import React from "react";
 
 import { Link } from "gatsby";
 
+import { useSiteMetadata } from "@/hooks";
 import type { Node } from "@/types";
 
 import { Author } from "./Author";
@@ -28,13 +29,10 @@ const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
+  const { author } = useSiteMetadata();
 
   return (
     <div className={styles.post}>
-      <Link className={styles.button} to="/">
-        All Articles
-      </Link>
-
       <div className={styles.content}>
         <Content body={html} title={title} />
       </div>
@@ -56,6 +54,10 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       <div className={styles.comments}>
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
+
+      <Link to="/">
+        <img alt={author.name} src={author.gif} className={styles.photo} />
+      </Link>
     </div>
   );
 };

@@ -40,7 +40,8 @@
 @include breakpoint-md {
   .sidebar {
     lost-column: 1/3;
-
+    position: sticky;
+    top: 0;
     .inner {
       @include padding-equal(1.5);
     }

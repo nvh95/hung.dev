@@ -1,6 +1,18 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 
+.photo {
+  background-clip: padding-box;
+  border-radius: 50%;
+  bottom: 4vw;
+  display: inline-block;
+  height: 75px;
+  position: fixed;
+  right: 4vw;
+  width: 75px;
+  @include margin-bottom(0);
+}
+
 .post {
   .content {
     @include margin-auto();
@@ -42,6 +54,11 @@
 }
 
 @include breakpoint-md {
+  .photo {
+    // top: 39px;
+    // right: 5vw;
+  }
+
   .post {
     .footer {
       @include padding-equal(0);
