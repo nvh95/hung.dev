@@ -20,13 +20,14 @@
 }
 
 .photo {
-
   animation: appear-opacity 2500ms;
   background-clip: padding-box;
+  border: 1px solid #000;
   border-radius: 50%;
   bottom: 4vw;
   display: inline-block;
   height: 75px;
+  padding: 2px;
   position: fixed;
   right: 4vw;
   width: 75px;
