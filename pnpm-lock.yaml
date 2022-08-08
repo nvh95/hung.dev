@@ -5,6 +5,7 @@ specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
   '@jest/globals': ^27.5.1
+  '@jest/types': 27.5.1
   '@sentry/gatsby': ^7.4.1
   '@sentry/tracing': ^7.7.0
   '@swc/core': ^1.2.215
@@ -139,6 +140,7 @@ devDependencies:
   '@commitlint/cli': 17.0.3_@swc+core@1.2.224
   '@commitlint/config-conventional': 17.0.3
   '@jest/globals': 27.5.1
+  '@jest/types': 27.5.1
   '@swc/core': 1.2.224
   '@swc/jest': 0.2.22_@swc+core@1.2.224
   '@types/gatsby-transformer-remark': 2.9.1
