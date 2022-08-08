@@ -206,5 +206,6 @@ export default {
       },
     },
     "gatsby-plugin-netlify",
+    "gatsby-plugin-pnpm",
   ],
 };
