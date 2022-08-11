@@ -3,6 +3,11 @@
 exports[`PostTemplate renders correctly 1`] = `
 <div>
   <div>
+    <a
+      href="/"
+    >
+      All Posts
+    </a>
     <div>
       <div>
         <h1>

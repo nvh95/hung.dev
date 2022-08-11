@@ -2,6 +2,11 @@
 
 exports[`Post renders correctly 1`] = `
 <div>
+  <a
+    href="/"
+  >
+    All Posts
+  </a>
   <div>
     <div>
       <h1>
