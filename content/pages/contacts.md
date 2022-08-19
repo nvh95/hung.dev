@@ -8,7 +8,7 @@ socialImage: "/media/image-4.jpg"
 
 - **Twitter:** [twitter.com/hung_dev](https://twitter.com/hung_dev)
 - **Linked In:** [linkedin.com/in/nvh95](https://www.linkedin.com/in/nvh95) (please send a note)
-- **Blog:** [hung.dev](https://hung.dev)
+- **GitHub:** [github.com/nvh95](https://github.com/nvh95)
 - **Email:** <viet@hung.dev>
 - **Jest Preview**: [www.jest-preview.com](www.jest-preview.com)
 
