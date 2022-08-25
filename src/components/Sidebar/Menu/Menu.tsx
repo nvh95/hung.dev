@@ -2,8 +2,9 @@ import React from "react";
 
 import { Link } from "gatsby";
 
-import * as styles from "./Menu.module.scss";
 import Mailchimp from "../Mailchimp";
+
+import * as styles from "./Menu.module.scss";
 
 type Props = {
   menu: Array<{
@@ -26,6 +27,16 @@ const Menu: React.FC<Props> = ({ menu }: Props) => (
           </Link>
         </li>
       ))}
+      <li className={styles.item}>
+        <a
+          href="https://handbook.hung.dev"
+          className={styles.link}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Handbook
+        </a>
+      </li>
       <li className={styles.item}>
         <a
           href="https://huwng.wordpress.com/"

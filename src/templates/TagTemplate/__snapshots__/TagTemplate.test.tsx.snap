@@ -48,6 +48,15 @@ exports[`TagTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
+              href="https://handbook.hung.dev"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Handbook
+            </a>
+          </li>
+          <li>
+            <a
               href="https://huwng.wordpress.com/"
               rel="noopener noreferrer"
               target="_blank"
