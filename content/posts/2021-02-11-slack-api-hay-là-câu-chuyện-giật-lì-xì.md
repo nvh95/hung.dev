@@ -1,5 +1,6 @@
 ---
 template: post
+vietnamese: true
 title: Slack API hay là câu chuyện giật lì xì
 slug: slack-api-lixi
 draft: false
@@ -11,6 +12,7 @@ tags:
   - slack message
   - send slack message on your behalf
 ---
+
 ### Mở đầu
 
 Trước tiên, mình xin gửi đến bạn, những độc giả đang theo dõi blog **hung.dev** một năm mới Tân Sửu thật nhiều niềm vui và sự may mắn. Cầu mong sự an lành và thịnh vượng sẽ tới với bạn và gia đình trong năm 2021 này.
@@ -55,18 +57,20 @@ Tada. Vậy là bạn đã cấp quyền xong cho con bot. Bây giờ hãy insta
 
 \- **text**: nội dung bạn muốn nhắn
 
-\- **thread_ls**: trong trường hợp bạn muốn gửi tin nhắn đến một thread, bạn cần truyền giá trị này vào. Cái này hơi tricky một chút. Bạn cần copy link của thread rồi biến đổi một chút, ví dụ link thread của bạn là 
+\- **thread_ls**: trong trường hợp bạn muốn gửi tin nhắn đến một thread, bạn cần truyền giá trị này vào. Cái này hơi tricky một chút. Bạn cần copy link của thread rồi biến đổi một chút, ví dụ link thread của bạn là
+
 ```
 https://yourworkspace.slack.com/archives/G01N6H4GUSV/p161305029701030
-``` 
+```
+
 thì thread id sẽ là `1613050297.010300`. Mình có viết một hàm để transform từ link thread sang `thread_ls`, các bạn có thể sử dụng luôn:
 
 ```javascript
 function getThreadId(link) {
   const matches = link.match(/\d+/g);
-  const id = matches[matches.length-1];
-  const threadId =  id.slice(0, 10) + '.' + id.slice(10, id.length);
-  console.log('threadId', threadId);
+  const id = matches[matches.length - 1];
+  const threadId = id.slice(0, 10) + "." + id.slice(10, id.length);
+  console.log("threadId", threadId);
   return threadId;
 }
 ```

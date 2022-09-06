@@ -9,6 +9,7 @@ interface Props {
   title: string;
   description?: string;
   socialImage?: string;
+  lang?: string;
   children: React.ReactNode;
 }
 
@@ -17,6 +18,7 @@ const Layout: React.FC<Props> = ({
   title,
   description,
   socialImage = "",
+  lang = "en",
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
@@ -25,7 +27,7 @@ const Layout: React.FC<Props> = ({
   return (
     <div className={styles.layout}>
       <Helmet>
-        <html lang="en" />
+        <html lang={lang} />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:site_name" content={title} />

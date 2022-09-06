@@ -1,5 +1,6 @@
 ---
 template: post
+vietnamese: true
 title: Be authentic với tích xanh trên Github
 slug: tich-xanh-github
 draft: false
@@ -15,7 +16,6 @@ tags:
   - verify commit
   - gpg git commit
 socialImage: "/media/github-authentic.png"
-
 ---
 
 ## Mở đầu
@@ -25,6 +25,7 @@ socialImage: "/media/github-authentic.png"
 Facebook có tính năng “tích xanh” để xác minh rằng một tài khoản là chính chủ. Vậy đối với developer - **người chơi hệ code**, liệu có tính năng tương tự không? Câu trả lời là có. Nếu bạn sử dụng Github đủ lâu, bạn sẽ biết github cũng có tính năng tích xanh, nhưng là xanh lá cây.
 
 ![Commit “chính chủ”](./images/commit-chinh-chu.png)
+
 <figcaption>Commit “chính chủ”</figcaption>
 
 Trong bài viết này, chúng ta sẽ cùng tìm hiểu tính năng này là gì và làm sao để sử dụng tính năng đó nhé.
@@ -39,7 +40,7 @@ Tính năng “tích xanh” của github tên đầy đủ là **Commit Signatu
 
 Hình trên là ảnh chụp từ repo [fake-committer](https://github.com/nvh95/fake-committers), trông thì có vẻ như @nvh95, @tamhoang1412 và @Songuku95 mỗi người có 1 commit. Tuy nhiên thực tế thì @tamhoang1412 và @Songuku95 không hề biết đến sự tồn tại của repo [fake-committer](https://github.com/nvh95/fake-committers), hai commit của hai bạn này hoàn toàn bị @nvh95 giả mạo.
 
-Tính năng tích xanh hoạt động như sau: Bạn sẽ kí (sign) commit bằng một khoá bí mật, đồng thời bạn upload khoá công khai lên github. Khi đó, mỗi khi bạn push code lên github, nó sẽ sử dụng khoá công khai để xác thực xem có đúng bạn là người tạo ra commit đó hay không. 
+Tính năng tích xanh hoạt động như sau: Bạn sẽ kí (sign) commit bằng một khoá bí mật, đồng thời bạn upload khoá công khai lên github. Khi đó, mỗi khi bạn push code lên github, nó sẽ sử dụng khoá công khai để xác thực xem có đúng bạn là người tạo ra commit đó hay không.
 
 ## Lợi ích của “tích xanh” Github
 
@@ -58,9 +59,10 @@ Có vài cách để có được tích xanh, nhưng đơn giản và phổ bi�
 - Kiểm tra bạn đã có `gpg` chưa bằng cách gõ `gpg` vào terminal. Nếu chưa có [vô đây download](https://www.gnupg.org/download/index.html) (download ở phần **GnuPG binary releases** nhé).
 - List các GPG key đang có ở máy bằng lệnh:
 
-    ```bash
-    gpg --list-secret-keys --keyid-format=long
-    ```
+  ```bash
+  gpg --list-secret-keys --keyid-format=long
+  ```
+
   - Nếu chưa có GPG key, chuyển sang bước 2.
   - Nếu có GPG key rồi, chuyển sang bước 3.
 
@@ -71,7 +73,8 @@ Chạy lệnh dưới đây, làm theo hướng dẫn điền để chọn loạ
 ```bash
 gpg --full-generate-key
 ```
-*Lưu ý trong câu hỏi `What keysize do you want?`, key của bạn phải dài ít nhất 4096 bits.*
+
+_Lưu ý trong câu hỏi `What keysize do you want?`, key của bạn phải dài ít nhất 4096 bits._
 
 Chạy lệnh dưới đây để hiện long form của GPG key:
 
@@ -86,7 +89,7 @@ $ gpg --list-secret-keys --keyid-format=long
 /Users/hubot/.gnupg/secring.gpg
 ------------------------------------
 sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
-uid                          Hubot 
+uid                          Hubot
 ssb   4096R/42B317FD4BA89E7A 2016-03-10
 ```
 
@@ -138,13 +141,11 @@ Tada, vậy là xong, mọi commit của bạn lên github sẽ trông rất aut
 
 ## Bonus: Vigilant Mode
 
-Quay lại câu chuyện trước khi kí, nếu ai đó giả mạo bạn commit, thì commit đó cũng chỉ trắng xoá. Vậy có cách nào tốt hơn không? Câu trả lời chính là **[Vigilant Mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)**. Khi bật chế độ này lên, nếu các commit nào của mình mà không được kí, sẽ có tag `Unverified` màu vàng bên cạnh, sẽ dễ dàng để người khác biết được commit đó có được kí bởi bạn hay không. Chi tiết hơn các bạn hãy xem tại **[Displaying verification statuses for all of your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)**. 
+Quay lại câu chuyện trước khi kí, nếu ai đó giả mạo bạn commit, thì commit đó cũng chỉ trắng xoá. Vậy có cách nào tốt hơn không? Câu trả lời chính là **[Vigilant Mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)**. Khi bật chế độ này lên, nếu các commit nào của mình mà không được kí, sẽ có tag `Unverified` màu vàng bên cạnh, sẽ dễ dàng để người khác biết được commit đó có được kí bởi bạn hay không. Chi tiết hơn các bạn hãy xem tại **[Displaying verification statuses for all of your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)**.
 
 ![https://docs.github.com/assets/cb-92094/images/help/commits/signature-verification-statuses.png](https://docs.github.com/assets/cb-92094/images/help/commits/signature-verification-statuses.png)
 
 Các bạn có thể bật chế độ đó lên bằng đường dẫn sau [https://github.com/settings/keys](https://github.com/settings/keys).
-
- 
 
 ![https://docs.github.com/assets/cb-25497/images/help/commits/vigilant-mode-checkbox.png](https://docs.github.com/assets/cb-25497/images/help/commits/vigilant-mode-checkbox.png)
 

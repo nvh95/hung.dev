@@ -131,6 +131,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     }
   });
 
+  // Create `/` route
   const path = constants.routes.indexRoute;
   const template = constants.templates.indexTemplate;
   const posts = await queries.postsQuery(graphql);
@@ -145,6 +146,20 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       path,
     });
   }
+
+  // Create `/english` route
+  createPage({
+    path: constants.routes.english,
+    component: constants.templates.englishTemplate,
+    context: {},
+  });
+
+  // Create `/viet` route
+  createPage({
+    path: constants.routes.vietnamese,
+    component: constants.templates.vietnameseTemplate,
+    context: {},
+  });
 };
 
 export { createPages };

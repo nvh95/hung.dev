@@ -2,6 +2,7 @@
 title: Bài học cho tâm trí khi chạy chậm
 date: "2020-08-17T18:28:58.963Z"
 template: "post"
+vietnamese: true
 draft: false
 slug: "bai-hoc-cho-tam-tri-khi-chay-cham"
 category: "Sport"

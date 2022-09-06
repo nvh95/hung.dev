@@ -2,6 +2,7 @@
 title: Hello Hung.Dev
 date: "2020-05-27T17:58:06.686Z"
 template: "post"
+vietnamese: true
 draft: false
 slug: "hello-hung-dev"
 category: "Blog"

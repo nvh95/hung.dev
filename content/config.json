@@ -9,8 +9,16 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Blogs",
+      "label": "All posts",
       "path": "/"
+    },
+    {
+      "label": "English",
+      "path": "/english"
+    },
+    {
+      "label": "Vietnamese",
+      "path": "/viet"
     },
     {
       "label": "About me",

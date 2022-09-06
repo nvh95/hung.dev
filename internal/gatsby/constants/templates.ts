@@ -4,6 +4,12 @@ const templates = Object.freeze({
   indexTemplate: path.resolve(
     "./src/templates/IndexTemplate/IndexTemplate.tsx",
   ),
+  vietnameseTemplate: path.resolve(
+    "./src/templates/VietnameseTemplate/VietnameseTemplate.tsx",
+  ),
+  englishTemplate: path.resolve(
+    "./src/templates/EnglishTemplate/EnglishTemplate.tsx",
+  ),
   notFoundTemplate: path.resolve(
     "./src/templates/NotFoundTemplate/NotFoundTemplate.tsx",
   ),
