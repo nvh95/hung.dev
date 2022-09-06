@@ -54,7 +54,7 @@
   to = "/posts/jest-vite"
 
 [[redirects]]
-  from = "/posts/2021-12-30-authentic-với-tích-xanh-trên-github/tich-xanh-github"
+  from = "/posts/2021-12-30-authentic-v%E1%BB%9Bi-t%C3%ADch-xanh-tr%C3%AAn-github/tich-xanh-github"
   to = "/posts/tich-xanh-github"
 
 [[redirects]]
