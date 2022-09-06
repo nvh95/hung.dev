@@ -68,7 +68,6 @@ specifiers:
   gatsby-source-filesystem: ^4.17.0
   gatsby-transformer-remark: ^5.17.0
   gatsby-transformer-sharp: ^4.17.0
-  husky: 8.0.1
   identity-obj-proxy: 3.0.0
   jest: ^27.5.1
   jest-cli: ^27.5.1
@@ -171,7 +170,6 @@ devDependencies:
   eslint-plugin-react: 7.30.1_eslint@8.21.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.21.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.21.0
-  husky: 8.0.1
   identity-obj-proxy: 3.0.0
   jest: 27.5.1_ts-node@10.9.1
   jest-cli: 27.5.1_ts-node@10.9.1
@@ -1595,7 +1593,7 @@ packages:
       '@types/node': 17.0.45
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 2.0.2_uzrgd5vo4dyxk2no4rityzehaa
+      cosmiconfig-typescript-loader: 2.0.2_niywnvwfq22xzrhbmpywlfvtby
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.7.4
@@ -6001,8 +5999,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: 1.0.1
       JSONStream: 1.3.5
+      is-text-path: 1.0.1
       lodash: 4.17.21
       meow: 8.1.2
       split2: 3.2.2
@@ -6089,11 +6087,12 @@ packages:
       '@iarna/toml': 2.2.5
     dev: false
 
-  /cosmiconfig-typescript-loader/2.0.2_uzrgd5vo4dyxk2no4rityzehaa:
+  /cosmiconfig-typescript-loader/2.0.2_niywnvwfq22xzrhbmpywlfvtby:
     resolution: {integrity: sha512-KmE+bMjWMXJbkWCeY4FJX/npHuZPNr9XF9q9CIQ/bpFwi1qHfCmSiKarrCcRa0LO4fWjk93pVoeRtJAkTGcYNw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
+      cosmiconfig: '>=7'
       typescript: '>=3'
     dependencies:
       '@types/node': 17.0.45
@@ -9886,12 +9885,6 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /iconv-lite/0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
     engines: {node: '>=0.10.0'}
@@ -13508,6 +13501,12 @@ packages:
   /react-dev-utils/12.0.1_fy4gb6ynl2lfxxhoh3sjihqjsu:
     resolution: {integrity: sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ==}
     engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=2.7'
+      webpack: '>=4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
       address: 1.1.2
@@ -13533,12 +13532,12 @@ packages:
       shell-quote: 1.7.3
       strip-ansi: 6.0.1
       text-table: 0.2.0
+      typescript: 4.7.4
+      webpack: 5.74.0_@swc+core@1.2.224
     transitivePeerDependencies:
       - eslint
       - supports-color
-      - typescript
       - vue-template-compiler
-      - webpack
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -15576,6 +15575,7 @@ packages:
   /unified/9.2.2:
     resolution: {integrity: sha512-Sg7j110mtefBD+qunSLO1lqOEKdrwBFBrR6Qd8f4uwkhWNlbkaqwHse6e7QvD3AP/MNoJdEDLaf8OxYyoWgorQ==}
     dependencies:
+      '@types/unist': 2.0.6
       bail: 1.0.5
       extend: 3.0.2
       is-buffer: 2.0.5
