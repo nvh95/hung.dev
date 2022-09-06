@@ -52,3 +52,15 @@
 [[redirects]]
   from = "/jest-vite"
   to = "/posts/jest-vite"
+
+[[redirects]]
+  from = "/posts/2021-12-30-authentic-với-tích-xanh-trên-github/tich-xanh-github"
+  to = "/posts/tich-xanh-github"
+
+[[redirects]]
+  from = "/posts/safe-password/safe-password"
+  to = "/posts/safe-password"
+
+[[redirects]]
+  from = "/posts/clean-code/clean-code-1"
+  to = "/posts/clean-code-1"

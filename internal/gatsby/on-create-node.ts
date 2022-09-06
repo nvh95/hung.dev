@@ -13,15 +13,11 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
   const { createNodeField } = actions;
 
   if (node.internal.type === "MarkdownRemark") {
-    const { frontmatter, parent }: types.Edge["node"] = node;
+    const { frontmatter }: types.Edge["node"] = node;
     const { tags, category, slug } = frontmatter || {};
 
     if (slug) {
-      const dirname = parent && getNode(parent)?.relativeDirectory;
-      const value =
-        typeof dirname === "string"
-          ? utils.concat("/", dirname, "/", slug)
-          : utils.concat("/", slug);
+      const value = utils.concat("/", slug);
 
       createNodeField({ node, name: "slug", value });
     } else {
