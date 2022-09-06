@@ -17,10 +17,11 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
     const { tags, category, slug } = frontmatter || {};
 
     if (slug) {
-      const dirname = parent && getNode(parent)?.relativeDirectory;
+      let dirname = parent && getNode(parent)?.relativeDirectory;
       const value =
         typeof dirname === "string"
-          ? utils.concat("/", dirname, "/", slug)
+          ? // /posts/2021-12-30-authentic-với-tích-xanh-trên-github => /posts
+            utils.concat("/", dirname.split("/")[0], "/", slug)
           : utils.concat("/", slug);
 
       createNodeField({ node, name: "slug", value });
