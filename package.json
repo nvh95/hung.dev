@@ -20,6 +20,7 @@
     "format": "npm run format:ts && npm run format:scss",
     "format:scss": "stylelint \"src/**/*.scss\" --fix",
     "format:ts": "eslint \"src\" --ext .tsx,.ts --fix && prettier --write .",
+    "format:content": "prettier --write content",
     "lint": "npm run lint:ts && npm run lint:scss",
     "lint:commit": "commitlint --edit",
     "lint:scss": "stylelint \"src/**/*.scss\"",

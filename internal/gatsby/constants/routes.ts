@@ -5,6 +5,8 @@ const routes = Object.freeze({
   notFoundRoute: "/404",
   tagRoute: "/tag",
   indexRoute: "/",
+  vietnamese: "/viet",
+  english: "/english",
 });
 
 export default routes;
