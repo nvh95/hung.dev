@@ -2,6 +2,7 @@
 title: Clean Code 1 - Câu chuyện về Code xấu giết chết công ty
 date: "2020-06-23T20:20:39.333Z"
 template: "post"
+vietnamese: true
 draft: false
 slug: "clean-code-1"
 category: "Clean Code"
@@ -12,7 +13,6 @@ socialImage: "/media/clean-code-1.jpg"
 ---
 
 🌍 [English translation](https://medium.com/@whoz_/the-untold-clean-code-clean-app-9cc2e1772644) by [whoz.dev](https://www.whoz.dev/)
-
 
 _Bài viết sử dụng tư tưởng của Uncle Bob trong [chuỗi video](https://www.oreilly.com/library/view/clean-code/9780134661742) về Clean Code_
 
