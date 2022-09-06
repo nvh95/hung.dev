@@ -69,7 +69,7 @@ _Các phương thức xác thực hai lớp như tin nhắn SMS, Authenticator A
 
 Không bao giờ submit các form trên các trang web không có hình chiếc khoá, đặc biệt là các thông tin cá nhân và mật khẩu. Khi truy cập các trang web không có hình chiếc khoá, toàn bộ thông tin bạn gửi đi sẽ không được mã hoá và ai cũng có thể đọc được. Ngoài ra, bạn có thể đang là nạn nhân của các cuộc tấn công Man in the Middle như `ssltrip`...
 
-![Một trang web có hình "chiếc khoá", được mã hoá đầu cuối, sử dụng HTTPS](/media/screenshot-2021-08-25-at-00.48.15.png 'Một trang web có hình \\"chiếc khoá", được mã hoá đầu cuối, sử dụng HTTPS')
+![Một trang web có hình "chiếc khoá", được mã hoá đầu cuối, sử dụng HTTPS](/media/screenshot-2021-08-25-at-00.48.15.png 'Một trang web có hình "chiếc khoá", được mã hoá đầu cuối, sử dụng HTTPS')
 _Một trang web có hình \"chiếc khoá\", được mã hoá đầu cuối, sử dụng HTTPS_
 
 ![](/media/screenshot-2021-08-25-at-00.48.50.png "Không bao giờ gửi thông tin cá nhân lên các trang web không có hình chiếc khoá.")
