@@ -16,7 +16,7 @@ interface Props {
 const PostTemplate: React.FC<Props> = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
-  const { title, description = "", socialImage } = frontmatter;
+  const { title, description = "", socialImage, vietnamese } = frontmatter;
   const metaDescription = description || siteSubtitle;
 
   return (
@@ -24,6 +24,7 @@ const PostTemplate: React.FC<Props> = ({ data }: Props) => {
       title={`${title} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage}
+      lang={vietnamese ? "vi" : "en"}
     >
       <Post post={data.markdownRemark} />
     </Layout>
@@ -46,6 +47,7 @@ export const query = graphql`
         tags
         title
         socialImage
+        vietnamese
       }
     }
   }
