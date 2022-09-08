@@ -25,7 +25,7 @@
     "lint:commit": "commitlint --edit",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint:staged": "lint-staged",
-    "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
+    "lint:ts": "eslint \"src\" --fix --ext .tsx,.ts && prettier --write src internal content",
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "test": "jest --config ./internal/testing/jest-config.ts",
