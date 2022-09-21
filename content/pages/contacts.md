@@ -9,7 +9,7 @@ socialImage: "/media/image-4.jpg"
 - **Twitter (preferred):** [twitter.com/hung_dev](https://twitter.com/hung_dev)
 - **Linked In:** [linkedin.com/in/nvh95](https://www.linkedin.com/in/nvh95) (please send a note before connecting)
 - **GitHub:** [github.com/nvh95](https://github.com/nvh95)
-- **Email:** <viet@hung.dev>
+- **Email:** <hi@hung.dev>
 - **Jest Preview**: [www.jest-preview.com](www.jest-preview.com)
 
 ![](/media/image-4.jpg)

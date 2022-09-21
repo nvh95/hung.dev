@@ -13,7 +13,7 @@
     "url": "https://github.com/nvh95/hung.dev.git"
   },
   "license": "MIT",
-  "author": "Hung Viet Nguyen <viet@hung.dev>",
+  "author": "Hung Viet Nguyen <hi@hung.dev>",
   "scripts": {
     "build": "gatsby build",
     "clean": "echo 'Hello'",
