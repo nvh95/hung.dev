@@ -59,6 +59,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "duongleh",
+      "name": "Duong Le",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28813618?v=4",
+      "profile": "https://github.com/duongleh",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -66,5 +75,6 @@
   "projectOwner": "nvh95",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
