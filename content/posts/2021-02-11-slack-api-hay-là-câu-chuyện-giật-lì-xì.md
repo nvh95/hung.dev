@@ -57,13 +57,13 @@ Tada. Vậy là bạn đã cấp quyền xong cho con bot. Bây giờ hãy insta
 
 \- **text**: nội dung bạn muốn nhắn
 
-\- **thread_ls**: trong trường hợp bạn muốn gửi tin nhắn đến một thread, bạn cần truyền giá trị này vào. Cái này hơi tricky một chút. Bạn cần copy link của thread rồi biến đổi một chút, ví dụ link thread của bạn là
+\- **thread_ts**: trong trường hợp bạn muốn gửi tin nhắn đến một thread, bạn cần truyền giá trị này vào. Cái này hơi tricky một chút. Bạn cần copy link của thread rồi biến đổi một chút, ví dụ link thread của bạn là
 
 ```
 https://yourworkspace.slack.com/archives/G01N6H4GUSV/p161305029701030
 ```
 
-thì thread id sẽ là `1613050297.010300`. Mình có viết một hàm để transform từ link thread sang `thread_ls`, các bạn có thể sử dụng luôn:
+thì thread id sẽ là `1613050297.010300`. Mình có viết một hàm để transform từ link thread sang `thread_ts`, các bạn có thể sử dụng luôn:
 
 ```javascript
 function getThreadId(link) {
