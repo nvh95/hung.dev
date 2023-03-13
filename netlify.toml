@@ -9,6 +9,19 @@
   to = "https://hung-dev.notion.site/hung-dev/Hung-Nguyen-e643118bf60d4125a323f67092c05573"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/trochuyenit"
+  to = "https://trochuyenit.hung.dev/?utm_source=blog"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/podcast"
+  to = "https://trochuyenit.hung.dev/?utm_source=blog"
+  status = 301
+  force = false
+
 [[redirects]]
   from = "/hello-hung-dev"
   to = "/posts/hello-hung-dev"
