@@ -47,6 +47,16 @@ const Menu: React.FC<Props> = ({ menu }: Props) => (
           Wordpress Blog
         </a>
       </li>
+      <li className={styles.item}>
+        <a
+          href="https://trochuyenit.hung.dev/?utm_source=blog"
+          className={styles.link}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Podcast
+        </a>
+      </li>
     </ul>
     <Mailchimp />
   </nav>
