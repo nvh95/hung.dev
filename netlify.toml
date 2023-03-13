@@ -12,13 +12,13 @@
 
 [[redirects]]
   from = "/trochuyenit"
-  to = "https://trochuyenit.hung.dev/"
+  to = "https://trochuyenit.hung.dev/?utm_source=blog"
   status = 301
   force = false
 
 [[redirects]]
   from = "/podcast"
-  to = "https://trochuyenit.hung.dev/"
+  to = "https://trochuyenit.hung.dev/?utm_source=blog"
   status = 301
   force = false
 
