@@ -6,7 +6,7 @@
   NPM_FLAGS = "--version" # prevent Netlify npm install
 [[redirects]]
   from = "/cv"
-  to = "https://hung-dev.notion.site/hung-dev/Hung-Nguyen-e643118bf60d4125a323f67092c05573"
+  to = "https://cv.hung.dev/"
   status = 301
   force = false
 
