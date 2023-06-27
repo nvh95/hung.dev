@@ -205,7 +205,6 @@ Note that if you use JSX runtime (likely that you do) that’s introduced in Rea
         "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
         "^.+\\.module\\.(css|sass|scss)$",
       ],
-      modulePaths: ["<rootDir>/src"],
       moduleNameMapper: {
         "^react-native$": "react-native-web",
         "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
